@@ -1,0 +1,61 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+html body .hoolix-top-nav-container {
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+}
+html body .hoolix-top-nav-container .top-nav {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 32px 0;
+}
+html body .hoolix-top-nav-container .top-nav .top-nav-logo {
+  color: #FD4714;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+html body .hoolix-top-nav-container .top-nav .top-nav-menu ul {
+  display: inline-flex;
+}
+html body .hoolix-top-nav-container .top-nav .top-nav-menu ul li {
+  list-style: none;
+}
+html body .hoolix-top-nav-container .top-nav .top-nav-menu ul li a {
+  text-decoration: none;
+  color: #222222;
+  font-size: 16px;
+  font-weight: 500;
+}
+html body .hoolix-top-nav-container .top-nav .top-nav-menu ul li:not(:last-child) {
+  margin-right: 25px;
+}
+html body .hoolix-top-nav-container .top-nav .top-nav-btn {
+  color: #fff;
+  background-color: #FD4714;
+  padding: 13px 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 8px 16px 0 rgba(253, 71, 20, 0.24);
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+html body .hoolix-top-nav-container .top-nav .top-nav-btn:hover {
+  transform: translateY(-5px);
+}
+
+/*# sourceMappingURL=main.css.map */
