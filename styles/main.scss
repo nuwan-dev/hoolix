@@ -13,7 +13,7 @@ html {
 
     body {
 
-        // top-nav-container
+        // top nav container
         .hoolix-top-nav-container {
             width: 100%;
             background-color: transparent;
@@ -24,7 +24,7 @@ html {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                width: 80%;
+                width: 1240px;
                 padding: 32px 0;
 
                 .top-nav-logo {
@@ -74,6 +74,8 @@ html {
                 }
             }
         }
+
+        // mobile nav container
     }
 
 }
