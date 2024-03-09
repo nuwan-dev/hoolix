@@ -147,12 +147,14 @@ html {
 .hoolix-chat-container .chat a img {
   width: 50px;
 }
-.hoolix-chat-container .chat p {
+.hoolix-chat-container .chat .chat-hover {
   position: absolute;
-  bottom: 120px;
+  bottom: 115px;
   right: 75px;
   display: none;
   transition: 0.3s ease-in-out;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

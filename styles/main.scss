@@ -169,14 +169,15 @@ html {
             }
         }
 
-        p {
+        .chat-hover {
             position: absolute;
-            bottom: 120px;
+            bottom: 115px;
             right: 75px;
             display: none;
             transition: $transition1;
-
-        }        
+            font-weight: 600;
+            font-size: 20px;
+        }
 
     }
 }

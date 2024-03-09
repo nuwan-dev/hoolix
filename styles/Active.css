@@ -19,6 +19,7 @@
 
 .chat-hover-active {
   display: block !important;
+  transition: 0.3s ease-in-out;
 }
 
 /*# sourceMappingURL=Active.css.map */
