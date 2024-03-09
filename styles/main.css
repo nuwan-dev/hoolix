@@ -130,19 +130,51 @@ html {
 }
 
 .hoolix-hero-container {
-  height: 1000px;
+  width: 100%;
+}
+.hoolix-hero-container .hero {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  top: 110px;
+}
+.hoolix-hero-container .hero .hero-txt {
+  flex: 1;
+}
+.hoolix-hero-container .hero .hero-txt h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 64px;
+  line-height: 1;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #222222;
+}
+.hoolix-hero-container .hero .hero-txt h1 span {
+  color: #FD4714;
+}
+.hoolix-hero-container .hero .hero-txt h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.hoolix-hero-container .hero .hero-img img {
+  width: 600px;
 }
 
 .hoolix-chat-container {
-  position: relative;
+  position: fixed;
+  right: 75px;
+  bottom: 75px;
 }
 .hoolix-chat-container .chat {
   position: relative;
 }
 .hoolix-chat-container .chat a {
   position: absolute;
-  bottom: 100px;
-  right: 20px;
 }
 .hoolix-chat-container .chat a img {
   width: 50px;

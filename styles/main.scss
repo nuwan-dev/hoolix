@@ -149,20 +149,62 @@ html {
 
 // Hero container
 .hoolix-hero-container {
-    height: 1000px;
+    width: 100%;
+
+    .hero {
+        width: 1170px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: relative;
+        top: 110px;
+
+        .hero-txt {
+            flex: 1;
+
+            h1 {
+                font-family: $ubuntu;
+                font-size: 64px;
+                line-height: 1;
+                text-transform: capitalize;
+                font-weight: bold;
+                color: $dark;
+
+                span {
+                    color: $orange;
+                }
+            }
+
+            h2 {
+                font-family: $poppins;
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+
+        .hero-img {
+            img {
+                width: 600px;
+            }
+        }
+    }
 }
 
 // Chat now container
 .hoolix-chat-container {
-    position: relative;
+    position: fixed;
+    right: 75px;
+    bottom: 75px;
 
     .chat {
         position: relative;
 
         a {
             position: absolute;
-            bottom: 100px;
-            right: 20px;
+            // bottom: 100px;
+            // right: 20px;
 
             img {
                 width: 50px;

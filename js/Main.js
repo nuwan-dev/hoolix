@@ -11,10 +11,10 @@ window.addEventListener("scroll", () => {
 
 const chtBtn = document.querySelector(".chat-btn");
 const chtHvr = document.querySelector(".chat-hover");
-chtBtn.addEventListener("mouseenter", () => {
+chtBtn.addEventListener("touchstart", () => {
   chtHvr.classList.add("chat-hover-active");
 }); 
-chtBtn.addEventListener("mouseleave", () => {
+chtBtn.addEventListener("touchend", () => {
   chtHvr.classList.remove("chat-hover-active");
 }); 
 
