@@ -17,6 +17,8 @@ html {
     width: 100%;
     background-color: transparent;
     position: fixed;
+    transition: 0.3s ease-in-out;
+    padding: 32px 0;
 
     .top-nav {
         margin: auto;
@@ -24,7 +26,7 @@ html {
         align-items: center;
         justify-content: space-between;
         width: $width;
-        padding: 32px 0;
+        
 
         .top-nav-logo {
             color: $orange;
@@ -115,29 +117,35 @@ html {
         margin: auto;
         padding: 2%;
 
-                a {
-                    text-decoration: none;
-                    color: $dark;
-                    font-size: 16px;
-                    font-weight: 500;
-                    position: relative;
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
+        a {
+            text-decoration: none;
+            color: $dark;
+            font-size: 16px;
+            font-weight: 500;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
 
-                    .mb-nav-logo {
-                        width: 30px;
-                    }
-
-                    img {
-                        width: 25px;
-                        margin: auto;
-                    }
-
-                    p {
-                        text-align: center; 
-                    }
-
-                }
+            .mb-nav-logo {
+                width: 30px;
             }
+
+            img {
+                width: 25px;
+                margin: auto;
+            }
+
+            p {
+                text-align: center;
+            }
+
         }
+    }
+}
+
+
+// Hero section
+.hoolix-hero-container {
+    height: 1000px;
+}

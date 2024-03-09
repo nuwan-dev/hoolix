@@ -20,6 +20,8 @@ html {
   width: 100%;
   background-color: transparent;
   position: fixed;
+  transition: 0.3s ease-in-out;
+  padding: 32px 0;
 }
 .hoolix-top-nav-container .top-nav {
   margin: auto;
@@ -27,7 +29,6 @@ html {
   align-items: center;
   justify-content: space-between;
   width: 1170px;
-  padding: 32px 0;
 }
 .hoolix-top-nav-container .top-nav .top-nav-logo {
   color: #FD4714;
@@ -123,6 +124,10 @@ html {
 }
 .hoolix-mb-nav-container .mb-nav a p {
   text-align: center;
+}
+
+.hoolix-hero-container {
+  height: 1000px;
 }
 
 /*# sourceMappingURL=main.css.map */
