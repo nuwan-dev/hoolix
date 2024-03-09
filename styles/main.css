@@ -99,8 +99,9 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 300px;
+  max-width: 100vw;
   margin: auto;
+  padding: 2%;
 }
 .hoolix-mb-nav-container .mb-nav a {
   text-decoration: none;
