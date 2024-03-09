@@ -99,6 +99,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 350px;
   margin: auto;
   padding: 2%;
 }
@@ -111,6 +112,9 @@ html {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+.hoolix-mb-nav-container .mb-nav a .mb-nav-logo {
+  width: 30px;
 }
 .hoolix-mb-nav-container .mb-nav a img {
   width: 25px;
