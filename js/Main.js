@@ -14,3 +14,8 @@ const chtHvr = document.querySelector(".chat-hover");
 chtBtn.addEventListener("mouseenter", () => {
   chtHvr.classList.add("chat-hover-active");
 }); 
+chtBtn.addEventListener("mouseleave", () => {
+  chtHvr.classList.remove("chat-hover-active");
+}); 
+
+

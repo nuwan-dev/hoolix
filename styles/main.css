@@ -151,10 +151,10 @@ html {
   position: absolute;
   bottom: 115px;
   right: 75px;
-  display: none;
   transition: 0.3s ease-in-out;
   font-weight: 600;
   font-size: 20px;
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
