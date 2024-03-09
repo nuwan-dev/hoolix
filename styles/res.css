@@ -8,6 +8,9 @@
   .hoolix-top-nav-container {
     display: none !important;
   }
+  .hoolix-mb-nav-container {
+    display: block !important;
+  }
 }
 
 /*# sourceMappingURL=res.css.map */

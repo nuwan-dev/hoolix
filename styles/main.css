@@ -92,6 +92,7 @@ html {
   background-color: transparent;
   position: fixed;
   bottom: 0;
+  display: none;
 }
 .hoolix-mb-nav-container .mb-nav {
   width: 1170px;
