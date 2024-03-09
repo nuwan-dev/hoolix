@@ -8,3 +8,9 @@ window.addEventListener("scroll", () => {
     : (tpNavMenu.classList.remove("top-nav-scroll-active"),
       mbNavMenu.classList.remove("mb-nav-scroll-active"));
 });
+
+const chtBtn = document.querySelector(".chat-btn");
+const chtHvr = document.querySelector(".chat-hover");
+chtBtn.addEventListener("mouseenter", () => {
+  chtHvr.classList.add("chat-hover-active");
+}); 
