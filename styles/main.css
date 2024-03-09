@@ -120,8 +120,5 @@ html {
 .hoolix-mb-nav-container .mb-nav a p {
   text-align: center;
 }
-.hoolix-mb-nav-container .mb-nav a:not(:last-child) {
-  margin-right: 10px;
-}
 
 /*# sourceMappingURL=main.css.map */
