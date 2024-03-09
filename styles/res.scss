@@ -1,0 +1,8 @@
+@import 'var';
+
+// mobile
+@media screen and (max-width: 425px) {
+    .hoolix-top-nav-container {
+        display: none !important;
+    }
+}

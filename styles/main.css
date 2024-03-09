@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @font-face {
   font-family: "Calibri Bold";
-  src: url("/assets/fonts/calibri-bold.ttf");
+  src: url("/calibri-bold.ttf");
 }
 *,
 ::after,
@@ -15,43 +15,44 @@
 html {
   box-sizing: border-box;
 }
-html body .hoolix-top-nav-container {
+
+.hoolix-top-nav-container {
   width: 100%;
   background-color: transparent;
   position: fixed;
 }
-html body .hoolix-top-nav-container .top-nav {
+.hoolix-top-nav-container .top-nav {
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1240px;
+  width: 1170px;
   padding: 32px 0;
 }
-html body .hoolix-top-nav-container .top-nav .top-nav-logo {
+.hoolix-top-nav-container .top-nav .top-nav-logo {
   color: #FD4714;
   text-decoration: none;
-  font-family: "Calibri Bold", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 55px;
   font-weight: 700;
 }
-html body .hoolix-top-nav-container .top-nav .top-nav-menu ul {
+.hoolix-top-nav-container .top-nav .top-nav-menu ul {
   display: inline-flex;
 }
-html body .hoolix-top-nav-container .top-nav .top-nav-menu ul li {
+.hoolix-top-nav-container .top-nav .top-nav-menu ul li {
   list-style: none;
 }
-html body .hoolix-top-nav-container .top-nav .top-nav-menu ul li a {
+.hoolix-top-nav-container .top-nav .top-nav-menu ul li a {
   text-decoration: none;
   color: #222222;
   font-size: 16px;
   font-weight: 500;
   position: relative;
 }
-html body .hoolix-top-nav-container .top-nav .top-nav-menu ul li a:hover {
+.hoolix-top-nav-container .top-nav .top-nav-menu ul li a:hover {
   color: #FD4714;
 }
-html body .hoolix-top-nav-container .top-nav .top-nav-menu ul li a:before {
+.hoolix-top-nav-container .top-nav .top-nav-menu ul li a:before {
   content: "";
   position: absolute;
   display: block;
@@ -64,13 +65,13 @@ html body .hoolix-top-nav-container .top-nav .top-nav-menu ul li a:before {
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
-html body .hoolix-top-nav-container .top-nav .top-nav-menu ul li a:hover::before {
+.hoolix-top-nav-container .top-nav .top-nav-menu ul li a:hover::before {
   transform: scaleX(1);
 }
-html body .hoolix-top-nav-container .top-nav .top-nav-menu ul li:not(:last-child) {
+.hoolix-top-nav-container .top-nav .top-nav-menu ul li:not(:last-child) {
   margin-right: 25px;
 }
-html body .hoolix-top-nav-container .top-nav .top-nav-btn {
+.hoolix-top-nav-container .top-nav .top-nav-btn {
   color: #fff;
   background-color: #FD4714;
   padding: 13px 50px;
@@ -82,8 +83,43 @@ html body .hoolix-top-nav-container .top-nav .top-nav-btn {
   cursor: pointer;
   transition: ease-in-out 0.3s;
 }
-html body .hoolix-top-nav-container .top-nav .top-nav-btn:hover {
+.hoolix-top-nav-container .top-nav .top-nav-btn:hover {
   transform: translateY(-5px);
+}
+
+.hoolix-mb-nav-container {
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+}
+.hoolix-mb-nav-container .mb-nav {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.hoolix-mb-nav-container .mb-nav a {
+  text-decoration: none;
+  color: #222222;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hoolix-mb-nav-container .mb-nav a img {
+  width: 25px;
+  margin: auto;
+}
+.hoolix-mb-nav-container .mb-nav a p {
+  text-align: center;
+}
+.hoolix-mb-nav-container .mb-nav a:not(:last-child) {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
