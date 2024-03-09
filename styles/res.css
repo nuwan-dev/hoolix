@@ -11,6 +11,18 @@
   .hoolix-mb-nav-container {
     display: block !important;
   }
+  .hoolix-hero-container {
+    width: auto;
+  }
+  .hoolix-hero-container .hero {
+    flex-direction: column;
+  }
+  .hoolix-hero-container .hero .hero-img img {
+    width: 100%;
+  }
+  .hoolix-chat-container {
+    bottom: 135px;
+  }
 }
 
 /*# sourceMappingURL=res.css.map */

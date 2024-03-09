@@ -9,6 +9,7 @@ window.addEventListener("scroll", () => {
       mbNavMenu.classList.remove("mb-nav-scroll-active"));
 });
 
+// chat button
 const chtBtn = document.querySelector(".chat-btn");
 const chtHvr = document.querySelector(".chat-hover");
 chtBtn.addEventListener("touchstart", () => {

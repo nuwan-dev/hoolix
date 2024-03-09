@@ -10,4 +10,22 @@
         display: block !important;
     }
 
+    .hoolix-hero-container {
+        width: auto;
+
+        .hero {
+            flex-direction: column;
+
+            .hero-img {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .hoolix-chat-container {
+        bottom: 135px;
+    }
+
 }
