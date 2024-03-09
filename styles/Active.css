@@ -13,4 +13,8 @@
   padding: 0 !important;
 }
 
+.mb-nav-scroll-active {
+  transform: translateY(0);
+}
+
 /*# sourceMappingURL=Active.css.map */
