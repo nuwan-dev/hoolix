@@ -18,7 +18,7 @@ html {
     background-color: transparent;
     position: fixed;
     transition: 0.3s ease-in-out;
-    padding: 32px 0;
+    padding: 25px 0;
     z-index: 999;
 
     .top-nav {
@@ -153,6 +153,9 @@ html {
 .hoolix-hero-container {
     width: 100%;
     background-color: $light-orng;
+    // height: 100vh;
+    display: flex;
+    align-items: center;
 
     .hero {
         max-width: 1170px;
@@ -162,10 +165,22 @@ html {
         justify-content: space-between;
         flex-wrap: wrap;
         position: relative;
-        top: 110px;
+        top: 75px;
+        padding: 100px 0;
 
         .hero-txt {
             flex: 1;
+
+            p {
+                font-size: 22.4px;
+                color: $dark;
+                font-weight: 500;
+                text-transform: capitalize;
+
+                span {
+                    color: $orange;
+                }
+            }
 
             h1 {
                 font-family: $ubuntu;
@@ -174,6 +189,7 @@ html {
                 text-transform: capitalize;
                 font-weight: bold;
                 color: $dark;
+                margin-block: 10px 15px;
 
                 span {
                     color: $orange;
@@ -184,6 +200,25 @@ html {
                 font-family: $poppins;
                 font-weight: 400;
                 font-size: 16px;
+            }
+
+            button {
+                color: #fff;
+                background-color: #FD4714;
+                padding: 13px 50px;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                font-weight: 600;
+                cursor: pointer;
+                transition: ease-in-out 0.3s;
+                position: relative;
+                top: 30px;
+            }
+
+            button:hover {
+                transform: translateY(-5px);
+                box-shadow: $boxShadow;
             }
         }
 
@@ -216,9 +251,9 @@ html {
 
         .chat-hover {
             position: absolute;
-            bottom: 115px;
-            right: 75px;
-            transition: 0.3s ease-in-out;
+            bottom: -35px;
+            right: 10px;
+            transition: $transition1;
             font-weight: 600;
             font-size: 20px;
             display: none;

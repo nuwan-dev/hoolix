@@ -21,7 +21,7 @@ html {
   background-color: transparent;
   position: fixed;
   transition: 0.3s ease-in-out;
-  padding: 32px 0;
+  padding: 25px 0;
   z-index: 999;
 }
 .hoolix-top-nav-container .top-nav {
@@ -134,6 +134,8 @@ html {
 .hoolix-hero-container {
   width: 100%;
   background-color: #FEFCFB;
+  display: flex;
+  align-items: center;
 }
 .hoolix-hero-container .hero {
   max-width: 1170px;
@@ -143,10 +145,20 @@ html {
   justify-content: space-between;
   flex-wrap: wrap;
   position: relative;
-  top: 110px;
+  top: 75px;
+  padding: 100px 0;
 }
 .hoolix-hero-container .hero .hero-txt {
   flex: 1;
+}
+.hoolix-hero-container .hero .hero-txt p {
+  font-size: 22.4px;
+  color: #222222;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.hoolix-hero-container .hero .hero-txt p span {
+  color: #FD4714;
 }
 .hoolix-hero-container .hero .hero-txt h1 {
   font-family: "Ubuntu", sans-serif;
@@ -155,6 +167,7 @@ html {
   text-transform: capitalize;
   font-weight: bold;
   color: #222222;
+  margin-block: 10px 15px;
 }
 .hoolix-hero-container .hero .hero-txt h1 span {
   color: #FD4714;
@@ -163,6 +176,23 @@ html {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+.hoolix-hero-container .hero .hero-txt button {
+  color: #fff;
+  background-color: #FD4714;
+  padding: 13px 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  position: relative;
+  top: 30px;
+}
+.hoolix-hero-container .hero .hero-txt button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px 0 rgba(253, 71, 20, 0.24);
 }
 .hoolix-hero-container .hero .hero-img img {
   width: 600px;
@@ -184,8 +214,8 @@ html {
 }
 .hoolix-chat-container .chat .chat-hover {
   position: absolute;
-  bottom: 115px;
-  right: 75px;
+  bottom: -35px;
+  right: 10px;
   transition: 0.3s ease-in-out;
   font-weight: 600;
   font-size: 20px;

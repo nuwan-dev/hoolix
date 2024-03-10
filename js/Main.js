@@ -14,8 +14,14 @@ const chtBtn = document.querySelector(".chat-btn");
 const chtHvr = document.querySelector(".chat-hover");
 chtBtn.addEventListener("touchstart", () => {
   chtHvr.classList.add("chat-hover-active");
-}); 
+});
+chtBtn.addEventListener("mouseenter", () => {
+  chtHvr.classList.add("chat-hover-active");
+});  
 chtBtn.addEventListener("touchend", () => {
+  chtHvr.classList.remove("chat-hover-active");
+}); 
+chtBtn.addEventListener("mouseleave", () => {
   chtHvr.classList.remove("chat-hover-active");
 }); 
 
