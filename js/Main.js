@@ -2,7 +2,7 @@
 const tpNavMenu = document.querySelector(".hoolix-top-nav-container");
 const mbNavMenu = document.querySelector(".hoolix-mb-nav-container");
 window.addEventListener("scroll", () => {
-  window.scrollY > 1
+  window.scrollY > 0
     ? (tpNavMenu.classList.add("top-nav-scroll-active"),
       mbNavMenu.classList.add("mb-nav-scroll-active"))
     : (tpNavMenu.classList.remove("top-nav-scroll-active"),
