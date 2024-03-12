@@ -17,12 +17,10 @@ chtBtn.addEventListener("touchstart", () => {
 });
 chtBtn.addEventListener("mouseenter", () => {
   chtHvr.classList.add("chat-hover-active");
-});  
+});
 chtBtn.addEventListener("touchend", () => {
   chtHvr.classList.remove("chat-hover-active");
-}); 
+});
 chtBtn.addEventListener("mouseleave", () => {
   chtHvr.classList.remove("chat-hover-active");
-}); 
-
-
+});
