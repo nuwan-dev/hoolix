@@ -29,7 +29,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1240px;
+  width: 1140px;
 }
 .hoolix-top-nav-container .top-nav .top-nav-logo {
   color: #FD4714;
@@ -138,7 +138,7 @@ html {
   align-items: center;
 }
 .hoolix-hero-container .hero {
-  max-width: 1240px;
+  max-width: 1140px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -146,6 +146,7 @@ html {
   flex-wrap: wrap;
   position: relative;
   padding: 120px 0;
+  column-gap: 50px;
 }
 .hoolix-hero-container .hero .hero-txt {
   flex: 1;
@@ -161,7 +162,7 @@ html {
 }
 .hoolix-hero-container .hero .hero-txt h1 {
   font-family: "Ubuntu", sans-serif;
-  font-size: 64px;
+  font-size: 48px;
   line-height: 1;
   text-transform: capitalize;
   font-weight: bold;
@@ -194,7 +195,8 @@ html {
   box-shadow: 0 8px 16px 0 rgba(253, 71, 20, 0.24);
 }
 .hoolix-hero-container .hero .hero-img img {
-  width: 600px;
+  width: 550px;
+  height: auto;
 }
 
 .hoolix-chat-container {
