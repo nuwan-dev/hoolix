@@ -29,7 +29,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1140px;
+  width: 1170px;
 }
 .hoolix-top-nav-container .top-nav .top-nav-logo {
   color: #FD4714;
@@ -131,6 +131,35 @@ html {
   text-align: center;
 }
 
+.hoolix-mb-top-header-container {
+  padding: 5%;
+}
+.hoolix-mb-top-header-container .mb-top-header {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hoolix-mb-top-header-container .mb-top-header a:nth-child(1) {
+  color: #FD4714;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+.hoolix-mb-top-header-container .mb-top-header a:nth-child(2) {
+  color: #fff;
+  background-color: #FD4714;
+  padding: 13px 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  text-decoration: none;
+}
+
 .hoolix-hero-container {
   width: 100%;
   background-color: #FEFCFB;
@@ -138,7 +167,7 @@ html {
   align-items: center;
 }
 .hoolix-hero-container .hero {
-  max-width: 1140px;
+  max-width: 1170px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -162,7 +191,7 @@ html {
 }
 .hoolix-hero-container .hero .hero-txt h1 {
   font-family: "Ubuntu", sans-serif;
-  font-size: 48px;
+  font-size: 64px;
   line-height: 1;
   text-transform: capitalize;
   font-weight: bold;
@@ -178,10 +207,10 @@ html {
   font-size: 16px;
 }
 .hoolix-hero-container .hero .hero-txt button {
-  color: #fff;
-  background-color: #FD4714;
+  color: #FD4714;
+  background-color: #fff;
   padding: 13px 50px;
-  border: none;
+  border: 1px solid #FD4714;
   border-radius: 5px;
   font-size: 16px;
   font-weight: 600;
@@ -195,8 +224,60 @@ html {
   box-shadow: 0 8px 16px 0 rgba(253, 71, 20, 0.24);
 }
 .hoolix-hero-container .hero .hero-img img {
-  width: 550px;
+  width: 500px;
   height: auto;
+}
+
+.hoolix-why-us-container {
+  width: 100%;
+  background-color: #F7F8FC;
+}
+.hoolix-why-us-container .why-us {
+  max-width: 1170px;
+  margin: auto;
+  text-align: center;
+  padding: 120px 0;
+}
+.hoolix-why-us-container .why-us h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 48px;
+}
+.hoolix-why-us-container .why-us h2 span {
+  font-family: "Ubuntu", sans-serif;
+  color: #FD4714;
+}
+.hoolix-why-us-container .why-us p {
+  margin-top: 24px;
+  font-size: 16px;
+  color: #666;
+}
+.hoolix-why-us-container .why-us .why-us-reasons {
+  display: flex;
+  column-gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+}
+.hoolix-why-us-container .why-us .why-us-reasons div {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 40px;
+  text-align: left;
+  box-shadow: 14px 24px 72px 0 rgba(102, 102, 102, 0.1);
+}
+.hoolix-why-us-container .why-us .why-us-reasons div img {
+  position: relative;
+  left: 0;
+  margin-bottom: 48px;
+}
+.hoolix-why-us-container .why-us .why-us-reasons div h3 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.hoolix-why-us-container .why-us .why-us-reasons div p {
+  font-size: 16px;
+  color: #666;
 }
 
 .hoolix-chat-container {

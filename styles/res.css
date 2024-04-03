@@ -13,12 +13,16 @@
   }
   .hoolix-hero-container {
     width: auto;
+    padding: 5%;
   }
   .hoolix-hero-container .hero {
     flex-direction: column;
+    padding-top: 0;
   }
   .hoolix-hero-container .hero .hero-img img {
     width: 100%;
+    position: relative;
+    top: 75px;
   }
   .hoolix-chat-container {
     bottom: 135px;

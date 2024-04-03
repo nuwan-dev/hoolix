@@ -12,13 +12,17 @@
 
     .hoolix-hero-container {
         width: auto;
+        padding: 5%;
 
         .hero {
             flex-direction: column;
+            padding-top: 0;
 
             .hero-img {
                 img {
                     width: 100%;
+                    position: relative;
+                    top: 75px;
                 }
             }
         }
