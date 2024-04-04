@@ -312,7 +312,7 @@ html {
   column-gap: 0;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .service .service-img {
-  background-image: url("/assets/imgs/service-placeholder.png") !important;
+  background-image: url("https://nuwan-dev.github.io/hoolix/assets/imgs/service-placeholder.png") !important;
   height: 290px;
   width: auto;
   background-position: center;
