@@ -481,6 +481,219 @@ html {
     }
 }
 
+// Our work container 
+.hoolix-our-work-container {
+    width: 100%;
+    overflow: hidden;
+
+    .our-work {
+        max-width: 1170px;
+        margin: auto;
+        text-align: center;
+        padding: 120px 0 0 0;
+
+        h2 {
+            font-family: $ubuntu;
+            font-size: 48px;
+
+            span {
+                font-family: $ubuntu;
+                color: $orange;
+            }
+        }
+
+        p {
+            margin-top: 24px;
+            font-size: 16px;
+            color: $light-grey;
+        }
+
+        .our-work-slider {
+            margin-top: 39px;
+            position: relative;
+
+            // .slick-prev {
+            //     position: absolute;
+            //     bottom: 150px;
+            // }
+
+            // .slick-prev::before {
+            //     content: url("/assets/icons/Btn-1.png");
+            // }
+
+            .slick-track {
+                width: 100%;
+                padding: 25px 0 100px 0;
+
+                .work {
+                    margin: 0 14px;
+                    display: flex;
+                    flex-direction: column;
+                    column-gap: 0;
+                    transition: ease-in-out 0.3s;
+                    border-radius: 8px;
+
+                    .work-img {
+                        background-image: url("https://nuwan-dev.github.io/hoolix/assets/imgs/service-placeholder.png") !important;
+                        height: 290px;
+                        width: auto;
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        border-radius: 8px;
+                        border-bottom-left-radius: 0;
+                        border-bottom-right-radius: 0;
+                    }
+
+                    .work-txt {
+                        border: solid 2px $icon-light-grey;
+                        border-top: 0;
+                        border-bottom-left-radius: 8px;
+                        border-bottom-right-radius: 8px;
+                        padding: 32px 16px;
+                        transition: ease-in-out 0.3s;
+
+                        .w-txt-1 {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            h5 {
+                                font-size: 24px;
+                                font-weight: 600;
+                                color: $dark;
+                                text-align: left;
+                            }
+
+                            .w-txt-rating {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                column-gap: 8px;
+
+                                img {
+                                    width: 16px;
+                                    height: auto;
+                                }
+
+                                p {
+                                    color: $light-grey;
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    line-height: 0;
+                                    margin-top: 0;
+                                }
+                            }
+                        }
+
+                        .w-txt-2 {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            margin-top: 20px;
+
+                            .w-technologies {
+                                display: inherit;
+                                column-gap: 8px;
+
+                                img {
+                                    width: 13px;
+                                    height: auto;
+                                }
+                            }
+
+                            a {
+                                color: $orange;
+                                font-size: 16px;
+                                font-weight: 700;
+                                padding: 6px;
+                                border-radius: 8px;
+                                background-color: $light-orange;
+                                text-decoration: none;
+                                transition: ease-in-out 0.3s;
+                            }
+
+                            a:hover {
+                                background-color: $orange;
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+
+                .work:hover {
+                    box-shadow: 0 16px 80px 0 rgba(254, 147, 94, 0.2);
+
+                    .work-txt {
+                        border-color: $light-orange;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+// Testimonial container
+.hoolix-testimonial-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: $light-blue;
+
+    .t-wrapper {
+        max-width: 1170px;
+        margin: auto;
+        padding: 120px 0;
+
+        .testimonials {
+            display: flex;
+            justify-content: space-between;
+
+            .t-txt {
+                flex-basis: 50%;
+
+                h2 {
+                    font-family: $ubuntu;
+                    font-size: 48px;
+
+                    span {
+                        font-family: $ubuntu;
+                        color: $orange;
+                    }
+                }
+
+                p {
+                    margin-top: 24px;
+                    font-size: 16px;
+                    color: $light-grey;
+                }
+            }
+
+            .t-slider {
+                .testimoial {
+                    background-color: $white;
+                    padding: 34px 27px 68px 34px;
+                    border-radius: 10px;
+                    position: relative;
+
+                    >img {
+                        position: absolute;
+                        top: -25px;
+                        left: -25px;
+                        width: 68px;
+                        height: auto;
+                    }
+
+                    .testimonial-msg {
+                        margin-top: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 // Chat now container
 .hoolix-chat-container {
     position: fixed;
