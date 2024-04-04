@@ -24,14 +24,23 @@
     position: relative;
     top: 75px;
   }
+  .hoolix-why-us-container {
+    width: auto;
+    padding: 5%;
+  }
   .hoolix-why-us-container .why-us .why-us-reasons {
     flex-direction: column;
+    row-gap: 25px;
+  }
+  .hoolix-our-servies-container {
+    width: auto;
+    padding: 5%;
+  }
+  .hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service {
+    margin-right: 0 !important;
   }
   .hoolix-chat-container {
     bottom: 135px;
-  }
-  .hoolix-our-servies-container .our-servies .our-services-slider .service {
-    margin-right: 0 !important;
   }
 }
 

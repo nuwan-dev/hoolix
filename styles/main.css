@@ -282,6 +282,7 @@ html {
 
 .hoolix-our-servies-container {
   width: 100%;
+  overflow: hidden;
 }
 .hoolix-our-servies-container .our-servies {
   max-width: 1170px;

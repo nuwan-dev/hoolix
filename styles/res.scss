@@ -29,25 +29,36 @@
     }
 
     .hoolix-why-us-container {
+        width: auto;
+        padding: 5%;
+
         .why-us {
             .why-us-reasons {
                 flex-direction: column;
+                row-gap: 25px;
             }
         }
-    }
-
-    .hoolix-chat-container {
-        bottom: 135px;
     }
 
     .hoolix-our-servies-container {
+        width: auto;
+        padding: 5%;
+
         .our-servies {
             .our-services-slider {
-                .service {
-                    margin-right: 0 !important;
+                .slick-track {
+                    .service {
+                        margin-right: 0 !important;
+                    }
                 }
             }
         }
+    }
+
+    // ------------------
+
+    .hoolix-chat-container {
+        bottom: 135px;
     }
 
 }
