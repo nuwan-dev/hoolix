@@ -199,7 +199,7 @@ html {
         flex-wrap: wrap;
         position: relative;
         // top: 50px;
-        padding: 120px 0;
+        padding: 240px 0 120px 0;
         column-gap: 50px;
 
         .hero-txt {
@@ -356,6 +356,16 @@ html {
 
         .our-services-slider {
             margin-top: 39px;
+            position: relative;
+
+            // .slick-prev {
+            //     position: absolute;
+            //     bottom: 150px;
+            // }
+
+            // .slick-prev::before {
+            //     content: url("/assets/icons/Btn-1.png");
+            // }
 
             .slick-track {
                 width: 100%;
@@ -367,7 +377,7 @@ html {
                     flex-direction: column;
                     column-gap: 0;
                     transition: ease-in-out 0.3s;
-                    border-radius: 8px; 
+                    border-radius: 8px;
 
                     .service-img {
                         background-image: url("https://nuwan-dev.github.io/hoolix/assets/imgs/service-placeholder.png") !important;
