@@ -302,6 +302,86 @@ html {
   font-size: 16px;
   color: #666;
 }
+.hoolix-our-servies-container .our-servies .our-services-slider {
+  margin-top: 64px;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .service {
+  margin-right: 28px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 0;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .service .service-img {
+  background-image: url("/assets/imgs/service-placeholder.png") !important;
+  height: 290px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .service .service-txt {
+  border: solid 2px #FEFCFB;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 32px 16px;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .service .service-txt .s-txt-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .service .service-txt .s-txt-1 h5 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #222222;
+  text-align: left;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .service .service-txt .s-txt-1 .s-txt-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 8px;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .service .service-txt .s-txt-1 .s-txt-rating img {
+  width: 16px;
+  height: auto;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .service .service-txt .s-txt-1 .s-txt-rating p {
+  color: #666;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0;
+  margin-top: 0;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .service .service-txt .s-txt-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .service .service-txt .s-txt-2 .s-technologies {
+  display: inherit;
+  column-gap: 8px;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .service .service-txt .s-txt-2 .s-technologies img {
+  width: 13px;
+  height: auto;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .service .service-txt .s-txt-2 a {
+  color: #FD4714;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 6px;
+  border-radius: 8px;
+  background-color: #FFE7DB;
+  text-decoration: none;
+  transition: ease-in-out 0.3s;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .service .service-txt .s-txt-2 a:hover {
+  background-color: #FD4714;
+  color: #fff;
+}
 
 .hoolix-chat-container {
   position: fixed;

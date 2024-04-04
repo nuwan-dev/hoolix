@@ -27,13 +27,13 @@ chtBtn.addEventListener("mouseleave", () => {
 
 //Slick
 
-$(".our-servies-slider").slick({
+$(".our-services-slider").slick({
   infinite: true,
-  slidesToShow: 3,
+  slidesToShow: 4,
   autoplay: true,
   autoplaySpeed: 1250,
   slidesToScroll: 1,
-  dots: true,
+  dots: false,
   responsive: [
     {
       breakpoint: 1024,

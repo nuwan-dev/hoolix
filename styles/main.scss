@@ -352,6 +352,99 @@ html {
             font-size: 16px;
             color: $light-grey;
         }
+
+        .our-services-slider {
+            margin-top: 64px;
+
+            .service {
+                margin-right: 28px;
+                display: flex;
+                flex-direction: column;
+                column-gap: 0;
+
+                .service-img {
+                    background-image: url("/assets/imgs/service-placeholder.png") !important;
+                    height: 290px;
+                    width: auto;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    border-radius: 8px;
+                }
+
+                .service-txt {
+                    border: solid 2px #FEFCFB;
+                    border-bottom-left-radius: 8px;
+                    border-bottom-right-radius: 8px;
+                    padding: 32px 16px;
+
+                    .s-txt-1 {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        h5 {
+                            font-size: 24px;
+                            font-weight: 600;
+                            color: $dark;
+                            text-align: left;
+                        }
+
+                        .s-txt-rating {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            column-gap: 8px;
+
+                            img {
+                                width: 16px;
+                                height: auto;
+                            }
+
+                            p {
+                                color: $light-grey;
+                                font-size: 16px;
+                                font-weight: 500;
+                                line-height: 0;
+                                margin-top: 0;
+                            }
+                        }
+                    }
+
+                    .s-txt-2 {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: 20px;
+
+                        .s-technologies {
+                            display: inherit;
+                            column-gap: 8px;
+                            img {
+                                width: 13px;
+                                height: auto;
+                            }
+                        }
+
+                        a {
+                            color: $orange;
+                            font-size: 16px;
+                            font-weight: 700;
+                            padding: 6px;
+                            border-radius: 8px;
+                            background-color: $light-orange;
+                            text-decoration: none;
+                            transition: ease-in-out 0.3s;
+                        }
+
+                        a:hover {
+                            background-color: $orange;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
