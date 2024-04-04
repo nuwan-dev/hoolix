@@ -327,6 +327,34 @@ html {
     }
 }
 
+// Our servies container
+.hoolix-our-servies-container {
+    width: 100%;
+
+    .our-servies {
+        max-width: 1170px;
+        margin: auto;
+        text-align: center;
+        padding: 120px 0;
+
+        h2 {
+            font-family: $ubuntu;
+            font-size: 48px;
+
+            span {
+                font-family: $ubuntu;
+                color: $orange;
+            }
+        }
+
+        p {
+            margin-top: 24px;
+            font-size: 16px;
+            color: $light-grey;
+        }
+    }
+}
+
 // Chat now container
 .hoolix-chat-container {
     position: fixed;

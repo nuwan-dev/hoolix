@@ -280,6 +280,29 @@ html {
   color: #666;
 }
 
+.hoolix-our-servies-container {
+  width: 100%;
+}
+.hoolix-our-servies-container .our-servies {
+  max-width: 1170px;
+  margin: auto;
+  text-align: center;
+  padding: 120px 0;
+}
+.hoolix-our-servies-container .our-servies h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 48px;
+}
+.hoolix-our-servies-container .our-servies h2 span {
+  font-family: "Ubuntu", sans-serif;
+  color: #FD4714;
+}
+.hoolix-our-servies-container .our-servies p {
+  margin-top: 24px;
+  font-size: 16px;
+  color: #666;
+}
+
 .hoolix-chat-container {
   position: fixed;
   right: 75px;
