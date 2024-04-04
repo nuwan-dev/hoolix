@@ -304,16 +304,19 @@ html {
   color: #666;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider {
-  margin-top: 64px;
+  margin-top: 39px;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-track {
   width: 100%;
+  padding: 25px 0;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service {
-  margin-right: 28px;
+  margin: 0 14px;
   display: flex;
   flex-direction: column;
   column-gap: 0;
+  transition: ease-in-out 0.3s;
+  border-radius: 8px;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service .service-img {
   background-image: url("https://nuwan-dev.github.io/hoolix/assets/imgs/service-placeholder.png") !important;
@@ -323,12 +326,16 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 8px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service .service-txt {
-  border: solid 2px #FEFCFB;
+  border: solid 2px #E5E5E5;
+  border-top: 0;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   padding: 32px 16px;
+  transition: ease-in-out 0.3s;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service .service-txt .s-txt-1 {
   display: flex;
@@ -385,6 +392,12 @@ html {
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service .service-txt .s-txt-2 a:hover {
   background-color: #FD4714;
   color: #fff;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service:hover {
+  box-shadow: 0 8px 16px 0 rgba(253, 71, 20, 0.24);
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service:hover .service-txt {
+  border-color: #FFE7DB;
 }
 
 .hoolix-chat-container {
