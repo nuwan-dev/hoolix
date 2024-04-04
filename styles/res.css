@@ -24,6 +24,9 @@
     position: relative;
     top: 75px;
   }
+  .hoolix-why-us-container .why-us .why-us-reasons {
+    flex-direction: column;
+  }
   .hoolix-chat-container {
     bottom: 135px;
   }
