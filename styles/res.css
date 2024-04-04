@@ -37,7 +37,9 @@
     padding: 5%;
   }
   .hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service {
-    margin-right: 0 !important;
+    margin: auto !important;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   .hoolix-chat-container {
     bottom: 135px;
