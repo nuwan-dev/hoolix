@@ -377,7 +377,7 @@ html {
   column-gap: 8px;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service .service-txt .s-txt-2 .s-technologies img {
-  width: 13px;
+  width: 16px;
   height: auto;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service .service-txt .s-txt-2 a {
@@ -535,6 +535,7 @@ html {
 .hoolix-testimonial-container .t-wrapper .testimonials {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 .hoolix-testimonial-container .t-wrapper .testimonials .t-txt {
   flex-basis: 50%;
@@ -554,9 +555,10 @@ html {
 }
 .hoolix-testimonial-container .t-wrapper .testimonials .t-slider .testimoial {
   background-color: #fff;
-  padding: 34px 27px 68px 34px;
+  padding: 28px 68px 34px 34px;
   border-radius: 10px;
   position: relative;
+  width: 500px;
 }
 .hoolix-testimonial-container .t-wrapper .testimonials .t-slider .testimoial > img {
   position: absolute;
@@ -567,6 +569,19 @@ html {
 }
 .hoolix-testimonial-container .t-wrapper .testimonials .t-slider .testimoial .testimonial-msg {
   margin-top: 25px;
+  font-size: 16px;
+  color: #444;
+  text-align: left;
+}
+.hoolix-testimonial-container .t-wrapper .testimonials .t-slider .testimoial .testimonial-prsn {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+  margin-top: 34px;
+}
+.hoolix-testimonial-container .t-wrapper .testimonials .t-slider .testimoial .testimonial-des {
+  color: #666;
+  font-size: 14px;
 }
 
 .hoolix-chat-container {
