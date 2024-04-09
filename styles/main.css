@@ -174,7 +174,7 @@ html {
   justify-content: space-between;
   flex-wrap: wrap;
   position: relative;
-  padding: 240px 0 120px 0;
+  padding: 150px 0 100px 0;
   column-gap: 50px;
 }
 .hoolix-hero-container .hero .hero-txt {
