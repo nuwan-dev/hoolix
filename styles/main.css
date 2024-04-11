@@ -341,7 +341,7 @@ html {
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service .service-txt .s-txt-1 {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service .service-txt .s-txt-1 h5 {
   font-size: 24px;
