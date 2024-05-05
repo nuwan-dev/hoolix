@@ -5,7 +5,7 @@
   src: url("/calibri-bold.ttf");
 }
 .top-nav-scroll-active {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
   border: none;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -19,7 +19,6 @@
 
 .chat-hover-active {
   display: block !important;
-  transition: 0.3s ease-in-out;
 }
 
 /*# sourceMappingURL=Active.css.map */
