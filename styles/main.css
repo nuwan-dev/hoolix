@@ -98,6 +98,19 @@ html {
   transition: 0.3s ease-in-out;
   z-index: 999;
 }
+.hoolix-mb-top-nav-container .mb-top-bar {
+  background-color: #FD4714;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.hoolix-mb-top-nav-container .mb-top-bar a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  margin: auto;
+}
 .hoolix-mb-top-nav-container .mb-top-nav {
   width: 1170px;
   margin: auto;

@@ -111,6 +111,21 @@ html {
     // transform: translateY(100px);
     z-index: 999;
 
+    .mb-top-bar {
+        background-color: $orange;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        a {
+            color: $white;
+            text-decoration: none;
+            text-align: center;
+            font-weight: 600;
+            margin: auto;
+        }
+    }
+
     .mb-top-nav {
         width: $width;
         margin: auto;
