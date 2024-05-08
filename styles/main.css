@@ -381,6 +381,41 @@ html {
   margin-top: 39px;
   position: relative;
 }
+.hoolix-our-servies-container .our-servies .our-services-slider .slick-prev {
+  position: absolute;
+  top: 575px;
+  left: 46%;
+  margin-right: 12px;
+  z-index: 9;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .slick-prev::before {
+  content: url("/assets/icons/Btn-prev.svg") !important;
+  display: block;
+  height: 40px !important;
+  width: 40px !important;
+  opacity: 1;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .slick-prev:hover::before {
+  content: url("/assets/icons/Btn-prev-hover.svg") !important;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .slick-next {
+  position: absolute;
+  top: 575px;
+  right: 46%;
+  z-index: 9;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .slick-next::before {
+  content: url("/assets/icons/Btn-next.svg") !important;
+  display: block;
+  height: 40px !important;
+  width: 40px !important;
+  transition: all ease-in-out 0.3s;
+  opacity: 1;
+}
+.hoolix-our-servies-container .our-servies .our-services-slider .slick-next:hover::before {
+  transition: all ease-in-out 0.3s;
+  content: url("/assets/icons/Btn-next-hover.svg") !important;
+}
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-track {
   width: 100%;
   padding: 25px 0 100px 0;
@@ -502,6 +537,41 @@ html {
   margin-top: 39px;
   position: relative;
 }
+.hoolix-our-work-container .our-work .our-work-slider .slick-prev {
+  position: absolute;
+  top: -22px;
+  left: 1045px;
+  margin-right: 12px;
+  z-index: 9;
+}
+.hoolix-our-work-container .our-work .our-work-slider .slick-prev::before {
+  content: url("/assets/icons/Btn-prev.svg") !important;
+  display: block;
+  height: 40px !important;
+  width: 40px !important;
+  opacity: 1;
+}
+.hoolix-our-work-container .our-work .our-work-slider .slick-prev:hover::before {
+  content: url("/assets/icons/Btn-prev-hover.svg") !important;
+}
+.hoolix-our-work-container .our-work .our-work-slider .slick-next {
+  position: absolute;
+  top: -22px;
+  right: 33px;
+  z-index: 9;
+}
+.hoolix-our-work-container .our-work .our-work-slider .slick-next::before {
+  content: url("/assets/icons/Btn-next.svg") !important;
+  display: block;
+  height: 40px !important;
+  width: 40px !important;
+  transition: all ease-in-out 0.3s;
+  opacity: 1;
+}
+.hoolix-our-work-container .our-work .our-work-slider .slick-next:hover::before {
+  transition: all ease-in-out 0.3s;
+  content: url("/assets/icons/Btn-next-hover.svg") !important;
+}
 .hoolix-our-work-container .our-work .our-work-slider .slick-track {
   width: 100%;
   padding: 25px 0 100px 0;
@@ -522,8 +592,6 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 8px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 .hoolix-our-work-container .our-work .our-work-slider .slick-track .work .work-txt {
   border: solid 2px #E5E5E5;
@@ -532,6 +600,8 @@ html {
   border-bottom-right-radius: 8px;
   padding: 32px 16px;
   transition: ease-in-out 0.3s;
+  position: relative;
+  top: -4px;
 }
 .hoolix-our-work-container .our-work .our-work-slider .slick-track .work .work-txt .w-txt-1 {
   display: flex;
@@ -626,6 +696,9 @@ html {
   margin-top: 24px;
   font-size: 16px;
   color: #666;
+}
+.hoolix-testimonial-container .t-wrapper .testimonials .t-slider {
+  flex-shrink: 50%;
 }
 .hoolix-testimonial-container .t-wrapper .testimonials .t-slider .testimoial {
   background-color: #fff;

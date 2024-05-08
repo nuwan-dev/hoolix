@@ -95,6 +95,15 @@ $(".our-work-slider").slick({
   ],
 });
 
+$(".t-slider").slick({
+  infinite: true,
+  slidesToShow: 1,
+  autoplay: true,
+  autoplaySpeed: 1250,
+  slidesToScroll: 1,
+  dots: false,
+});
+
 let menu = document.getElementById("mbTopNavMenu");
 menu.addEventListener("click", () => {
   menu.classList.toggle("open-menu");

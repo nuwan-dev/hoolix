@@ -448,14 +448,46 @@ html {
             margin-top: 39px;
             position: relative;
 
-            // .slick-prev {
-            //     position: absolute;
-            //     bottom: 150px;
-            // }
+            .slick-prev {
+                position: absolute;
+                top: 575px;
+                left: 46%;
+                margin-right: 12px;
+                z-index: 9;
+            }
 
-            // .slick-prev::before {
-            //     content: url("/assets/icons/Btn-1.png");
-            // }
+            .slick-prev::before {
+                content: url('/assets/icons/Btn-prev.svg') !important;
+                display: block;
+                height: 40px !important;
+                width: 40px !important;
+                opacity: 1;
+            }
+
+            .slick-prev:hover::before {
+                content: url("/assets/icons/Btn-prev-hover.svg") !important;
+            }
+
+            .slick-next {
+                position: absolute;
+                top: 575px;
+                right: 46%;
+                z-index: 9;
+            }
+
+            .slick-next::before {
+                content: url('/assets/icons/Btn-next.svg') !important;
+                display: block;
+                height: 40px !important;
+                width: 40px !important;
+                transition: all ease-in-out 0.3s;
+                opacity: 1;
+            }
+
+            .slick-next:hover::before {
+                transition: all ease-in-out 0.3s;
+                content: url("/assets/icons/Btn-next-hover.svg") !important;
+            }
 
             .slick-track {
                 width: 100%;
@@ -602,14 +634,46 @@ html {
             margin-top: 39px;
             position: relative;
 
-            // .slick-prev {
-            //     position: absolute;
-            //     bottom: 150px;
-            // }
+            .slick-prev {
+                position: absolute;
+                top: -22px;
+                left: 1045px;
+                margin-right: 12px;
+                z-index: 9;
+            }
 
-            // .slick-prev::before {
-            //     content: url("/assets/icons/Btn-1.png");
-            // }
+            .slick-prev::before {
+                content: url('/assets/icons/Btn-prev.svg') !important;
+                display: block;
+                height: 40px !important;
+                width: 40px !important;
+                opacity: 1;
+            }
+
+            .slick-prev:hover::before {
+                content: url("/assets/icons/Btn-prev-hover.svg") !important;
+            }
+
+            .slick-next {
+                position: absolute;
+                top: -22px;
+                right: 33px;
+                z-index: 9;
+            }
+
+            .slick-next::before {
+                content: url('/assets/icons/Btn-next.svg') !important;
+                display: block;
+                height: 40px !important;
+                width: 40px !important;
+                transition: all ease-in-out 0.3s;
+                opacity: 1;
+            }
+
+            .slick-next:hover::before {
+                transition: all ease-in-out 0.3s;
+                content: url("/assets/icons/Btn-next-hover.svg") !important;
+            }
 
             .slick-track {
                 width: 100%;
@@ -631,8 +695,8 @@ html {
                         background-size: cover;
                         background-repeat: no-repeat;
                         border-radius: 8px;
-                        border-bottom-left-radius: 0;
-                        border-bottom-right-radius: 0;
+                        // border-bottom-left-radius: 0;
+                        // border-bottom-right-radius: 0;
                     }
 
                     .work-txt {
@@ -642,6 +706,8 @@ html {
                         border-bottom-right-radius: 8px;
                         padding: 32px 16px;
                         transition: ease-in-out 0.3s;
+                        position: relative;
+                        top: -4px;
 
                         .w-txt-1 {
                             display: flex;
@@ -762,6 +828,7 @@ html {
             }
 
             .t-slider {
+                flex-shrink: 50%;
                 .testimoial {
                     background-color: $white;
                     padding: 28px 68px 34px 34px;
