@@ -389,14 +389,14 @@ html {
   z-index: 9;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-prev::before {
-  content: url("/assets/icons/Btn-prev.svg") !important;
+  content: url("https://nuwan-dev.github.io/hoolix/assets/icons/Btn-prev.svg") !important;
   display: block;
   height: 40px !important;
   width: 40px !important;
   opacity: 1;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-prev:hover::before {
-  content: url("/assets/icons/Btn-prev-hover.svg") !important;
+  content: url("https://nuwan-dev.github.io/hoolix/assets/icons/Btn-prev-hover.svg") !important;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-next {
   position: absolute;
@@ -405,7 +405,7 @@ html {
   z-index: 9;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-next::before {
-  content: url("/assets/icons/Btn-next.svg") !important;
+  content: url("https://nuwan-dev.github.io/hoolix/assets/icons/Btn-next.svg") !important;
   display: block;
   height: 40px !important;
   width: 40px !important;
@@ -414,7 +414,7 @@ html {
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-next:hover::before {
   transition: all ease-in-out 0.3s;
-  content: url("/assets/icons/Btn-next-hover.svg") !important;
+  content: url("https://nuwan-dev.github.io/hoolix/assets/icons/Btn-next-hover.svg") !important;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-track {
   width: 100%;
@@ -545,14 +545,14 @@ html {
   z-index: 9;
 }
 .hoolix-our-work-container .our-work .our-work-slider .slick-prev::before {
-  content: url("/assets/icons/Btn-prev.svg") !important;
+  content: url("https://nuwan-dev.github.io/hoolix/assets/icons/Btn-prev.svg") !important;
   display: block;
   height: 40px !important;
   width: 40px !important;
   opacity: 1;
 }
 .hoolix-our-work-container .our-work .our-work-slider .slick-prev:hover::before {
-  content: url("/assets/icons/Btn-prev-hover.svg") !important;
+  content: url("https://nuwan-dev.github.io/hoolix/assets/icons/Btn-prev-hover.svg") !important;
 }
 .hoolix-our-work-container .our-work .our-work-slider .slick-next {
   position: absolute;
@@ -561,7 +561,7 @@ html {
   z-index: 9;
 }
 .hoolix-our-work-container .our-work .our-work-slider .slick-next::before {
-  content: url("/assets/icons/Btn-next.svg") !important;
+  content: url("https://nuwan-dev.github.io/hoolix/assets/icons/Btn-next.svg") !important;
   display: block;
   height: 40px !important;
   width: 40px !important;
@@ -570,7 +570,7 @@ html {
 }
 .hoolix-our-work-container .our-work .our-work-slider .slick-next:hover::before {
   transition: all ease-in-out 0.3s;
-  content: url("/assets/icons/Btn-next-hover.svg") !important;
+  content: url("https://nuwan-dev.github.io/hoolix/assets/icons/Btn-next-hover.svg") !important;
 }
 .hoolix-our-work-container .our-work .our-work-slider .slick-track {
   width: 100%;
