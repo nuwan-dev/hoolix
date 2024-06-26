@@ -830,6 +830,53 @@ html {
             }
 
             .t-slider {
+                margin-top: 65px;
+                position: relative;
+
+                .slick-prev::before {
+                    content: url("https://nuwan-dev.github.io/hoolix/assets/icons/Btn-prev.svg") !important;
+                    display: block;
+                    height: 40px !important;
+                    width: 40px !important;
+                    opacity: 1;
+                    transition: all ease-in-out 0.3s;
+                }
+
+                .slick-prev {
+                    position: absolute;
+                    top: 420px;
+                    left: 46%;
+                    margin-right: 12px;
+                    z-index: 9;
+                }
+
+                .slick-prev:hover::before {
+                    content: url("https://nuwan-dev.github.io/hoolix/assets/icons/Btn-prev-hover.svg") !important;
+                }
+
+                .slick-next {
+                    position: absolute;
+                    top: 420px;
+                    right: 46%;
+                    z-index: 9;
+                }
+
+                .slick-next::before {
+                    content: url("https://nuwan-dev.github.io/hoolix/assets/icons/Btn-next.svg") !important;
+                    display: block;
+                    height: 40px !important;
+                    width: 40px !important;
+                    transition: all ease-in-out 0.3s;
+                    opacity: 1;
+                }
+
+                .slick-next:hover::before {
+                    content: url("https://nuwan-dev.github.io/hoolix/assets/icons/Btn-next-hover.svg") !important;
+                }
+
+                .slick-track {
+                    padding-bottom: 50px;
+                }
 
                 // flex-shrink: 50%;
                 .testimoial {
@@ -837,8 +884,9 @@ html {
                     padding: 28px 68px 34px 34px;
                     border-radius: 10px;
                     position: relative;
-                    width: 600px !important;
-                    margin: 0 50px;
+                    // width: 600px !important;
+                    transition: 0.3s ease-in-out;
+                    margin: 0 10px;
                     // box-shadow: 
 
                     >img {
@@ -847,6 +895,7 @@ html {
                         // left: -25px;
                         width: 68px;
                         height: auto;
+                        margin: auto;
                     }
 
                     .testimonial-msg {
@@ -861,13 +910,118 @@ html {
                         font-weight: 600;
                         color: $dark;
                         margin-top: 34px;
+                        text-align: center;
                     }
 
                     .testimonial-des {
                         color: $light-grey;
                         font-size: 14px;
+                        text-align: center;
                     }
 
+                }
+
+                .testimoial:hover {
+                    box-shadow: 0 8px 16px 0 rgba(253, 71, 20, 0.24);
+                }
+            }
+        }
+    }
+}
+
+// Footer container
+// Newsletter container
+footer {
+    position: relative;
+
+    .hoolix-newsletter-container {
+        width: 100%;
+        margin-top: 120px;
+        position: relative;
+        z-index: 2;
+
+        .newsletter {
+            margin: auto;
+            width: 1170px;
+            height: 416px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: $orange;
+            background-image: url('/assets/icons/Element.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: bottom left;
+            border-radius: 16px;
+            z-index: 2;
+
+            h3 {
+                font-family: $ubuntu;
+                font-size: 48px;
+                font-weight: bold;
+                color: $white;
+            }
+
+            a {
+                font-family: $ubuntu;
+                font-size: 48px;
+                font-weight: bold;
+                color: $white;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .hoolix-footer-container {
+        width: 100%;
+        background-color: $grey-white;
+        position: absolute;
+        top: 50%;
+        padding-top: 325px;
+        padding-bottom: 50px;
+
+        .footer {
+            display: flex;
+            width: 1170px;
+            margin: auto;
+
+            .footer-col-1 {
+                width: 40%;
+                width: 255px;
+                margin-right: 317px;
+
+                a {
+                    margin-bottom: 24px !important;
+                    display: block;
+                    text-decoration: none;
+                    color: $orange;
+                    font-size: 24px;
+                    font-family: $ubuntu;
+                    font-weight: bold;
+                }
+
+                p {
+                    margin-bottom: 16px;
+                    display: block;
+                }
+            }
+
+            .footer-col-2, .footer-col-3, .footer-col-4 {
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+
+                h4 {
+                    margin-bottom: 32px;
+                }
+
+                a {
+                    text-decoration: none;
+                }
+                
+                a:not(:last-child) {
+                    margin-bottom: 16px;
                 }
             }
         }

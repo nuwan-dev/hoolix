@@ -697,17 +697,60 @@ html {
   font-size: 16px;
   color: #666;
 }
+.hoolix-testimonial-container .t-wrapper .testimonials .t-slider {
+  margin-top: 65px;
+  position: relative;
+}
+.hoolix-testimonial-container .t-wrapper .testimonials .t-slider .slick-prev::before {
+  content: url("https://nuwan-dev.github.io/hoolix/assets/icons/Btn-prev.svg") !important;
+  display: block;
+  height: 40px !important;
+  width: 40px !important;
+  opacity: 1;
+  transition: all ease-in-out 0.3s;
+}
+.hoolix-testimonial-container .t-wrapper .testimonials .t-slider .slick-prev {
+  position: absolute;
+  top: 420px;
+  left: 46%;
+  margin-right: 12px;
+  z-index: 9;
+}
+.hoolix-testimonial-container .t-wrapper .testimonials .t-slider .slick-prev:hover::before {
+  content: url("https://nuwan-dev.github.io/hoolix/assets/icons/Btn-prev-hover.svg") !important;
+}
+.hoolix-testimonial-container .t-wrapper .testimonials .t-slider .slick-next {
+  position: absolute;
+  top: 420px;
+  right: 46%;
+  z-index: 9;
+}
+.hoolix-testimonial-container .t-wrapper .testimonials .t-slider .slick-next::before {
+  content: url("https://nuwan-dev.github.io/hoolix/assets/icons/Btn-next.svg") !important;
+  display: block;
+  height: 40px !important;
+  width: 40px !important;
+  transition: all ease-in-out 0.3s;
+  opacity: 1;
+}
+.hoolix-testimonial-container .t-wrapper .testimonials .t-slider .slick-next:hover::before {
+  content: url("https://nuwan-dev.github.io/hoolix/assets/icons/Btn-next-hover.svg") !important;
+}
+.hoolix-testimonial-container .t-wrapper .testimonials .t-slider .slick-track {
+  padding-bottom: 50px;
+}
 .hoolix-testimonial-container .t-wrapper .testimonials .t-slider .testimoial {
   background-color: #fff;
   padding: 28px 68px 34px 34px;
   border-radius: 10px;
   position: relative;
-  width: 600px !important;
-  margin: 0 50px;
+  transition: 0.3s ease-in-out;
+  margin: 0 10px;
 }
 .hoolix-testimonial-container .t-wrapper .testimonials .t-slider .testimoial > img {
   width: 68px;
   height: auto;
+  margin: auto;
 }
 .hoolix-testimonial-container .t-wrapper .testimonials .t-slider .testimoial .testimonial-msg {
   margin-top: 25px;
@@ -720,10 +763,99 @@ html {
   font-weight: 600;
   color: #222222;
   margin-top: 34px;
+  text-align: center;
 }
 .hoolix-testimonial-container .t-wrapper .testimonials .t-slider .testimoial .testimonial-des {
   color: #666;
   font-size: 14px;
+  text-align: center;
+}
+.hoolix-testimonial-container .t-wrapper .testimonials .t-slider .testimoial:hover {
+  box-shadow: 0 8px 16px 0 rgba(253, 71, 20, 0.24);
+}
+
+footer {
+  position: relative;
+}
+footer .hoolix-newsletter-container {
+  width: 100%;
+  margin-top: 120px;
+  position: relative;
+  z-index: 2;
+}
+footer .hoolix-newsletter-container .newsletter {
+  margin: auto;
+  width: 1170px;
+  height: 416px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #FD4714;
+  background-image: url("/assets/icons/Element.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom left;
+  border-radius: 16px;
+  z-index: 2;
+}
+footer .hoolix-newsletter-container .newsletter h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+}
+footer .hoolix-newsletter-container .newsletter a {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+footer .hoolix-footer-container {
+  width: 100%;
+  background-color: #F7F8FC;
+  position: absolute;
+  top: 50%;
+  padding-top: 325px;
+  padding-bottom: 50px;
+}
+footer .hoolix-footer-container .footer {
+  display: flex;
+  width: 1170px;
+  margin: auto;
+}
+footer .hoolix-footer-container .footer .footer-col-1 {
+  width: 40%;
+  width: 255px;
+  margin-right: 317px;
+}
+footer .hoolix-footer-container .footer .footer-col-1 a {
+  margin-bottom: 24px !important;
+  display: block;
+  text-decoration: none;
+  color: #FD4714;
+  font-size: 24px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+footer .hoolix-footer-container .footer .footer-col-1 p {
+  margin-bottom: 16px;
+  display: block;
+}
+footer .hoolix-footer-container .footer .footer-col-2, footer .hoolix-footer-container .footer .footer-col-3, footer .hoolix-footer-container .footer .footer-col-4 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+footer .hoolix-footer-container .footer .footer-col-2 h4, footer .hoolix-footer-container .footer .footer-col-3 h4, footer .hoolix-footer-container .footer .footer-col-4 h4 {
+  margin-bottom: 32px;
+}
+footer .hoolix-footer-container .footer .footer-col-2 a, footer .hoolix-footer-container .footer .footer-col-3 a, footer .hoolix-footer-container .footer .footer-col-4 a {
+  text-decoration: none;
+}
+footer .hoolix-footer-container .footer .footer-col-2 a:not(:last-child), footer .hoolix-footer-container .footer .footer-col-3 a:not(:last-child), footer .hoolix-footer-container .footer .footer-col-4 a:not(:last-child) {
+  margin-bottom: 16px;
 }
 
 .hoolix-chat-container {
