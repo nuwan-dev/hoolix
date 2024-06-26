@@ -132,7 +132,7 @@ html {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        max-width: 350px;
+        max-width: 350px !important;
         margin: auto;
         padding: 2%;
 
@@ -804,11 +804,13 @@ html {
 
         .testimonials {
             display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
+            justify-content: center;
+            // align-items: flex-start;
+            flex-direction: column;
 
             .t-txt {
-                flex-basis: 50%;
+                // flex-basis: 50%;
+                text-align: center;
 
                 h2 {
                     font-family: $ubuntu;
@@ -828,19 +830,21 @@ html {
             }
 
             .t-slider {
-                flex-shrink: 50%;
+
+                // flex-shrink: 50%;
                 .testimoial {
                     background-color: $white;
                     padding: 28px 68px 34px 34px;
                     border-radius: 10px;
                     position: relative;
-                    width: 500px;
+                    width: 600px !important;
+                    margin: 0 50px;
                     // box-shadow: 
 
                     >img {
-                        position: absolute;
-                        top: -25px;
-                        left: -25px;
+                        // position: absolute;
+                        // top: -25px;
+                        // left: -25px;
                         width: 68px;
                         height: auto;
                     }
@@ -849,7 +853,7 @@ html {
                         margin-top: 25px;
                         font-size: 16px;
                         color: $dark-grey;
-                        text-align: left;
+                        text-align: center;
                     }
 
                     .testimonial-prsn {

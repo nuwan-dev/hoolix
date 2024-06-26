@@ -117,7 +117,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 350px;
+  max-width: 350px !important;
   margin: auto;
   padding: 2%;
 }
@@ -678,11 +678,11 @@ html {
 }
 .hoolix-testimonial-container .t-wrapper .testimonials {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
 }
 .hoolix-testimonial-container .t-wrapper .testimonials .t-txt {
-  flex-basis: 50%;
+  text-align: center;
 }
 .hoolix-testimonial-container .t-wrapper .testimonials .t-txt h2 {
   font-family: "Ubuntu", sans-serif;
@@ -697,20 +697,15 @@ html {
   font-size: 16px;
   color: #666;
 }
-.hoolix-testimonial-container .t-wrapper .testimonials .t-slider {
-  flex-shrink: 50%;
-}
 .hoolix-testimonial-container .t-wrapper .testimonials .t-slider .testimoial {
   background-color: #fff;
   padding: 28px 68px 34px 34px;
   border-radius: 10px;
   position: relative;
-  width: 500px;
+  width: 600px !important;
+  margin: 0 50px;
 }
 .hoolix-testimonial-container .t-wrapper .testimonials .t-slider .testimoial > img {
-  position: absolute;
-  top: -25px;
-  left: -25px;
   width: 68px;
   height: auto;
 }
@@ -718,7 +713,7 @@ html {
   margin-top: 25px;
   font-size: 16px;
   color: #444;
-  text-align: left;
+  text-align: center;
 }
 .hoolix-testimonial-container .t-wrapper .testimonials .t-slider .testimoial .testimonial-prsn {
   font-size: 18px;
