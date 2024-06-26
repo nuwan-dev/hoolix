@@ -993,7 +993,7 @@ footer {
 
                 a {
                     margin-bottom: 24px !important;
-                    display: block;
+                    // display: block;
                     text-decoration: none;
                     color: $orange;
                     font-size: 24px;
@@ -1003,11 +1003,13 @@ footer {
 
                 p {
                     margin-bottom: 16px;
-                    display: block;
+                    margin-top: 24px;
                 }
             }
 
-            .footer-col-2, .footer-col-3, .footer-col-4 {
+            .footer-col-2,
+            .footer-col-3,
+            .footer-col-4 {
                 width: 20%;
                 display: flex;
                 flex-direction: column;
@@ -1019,7 +1021,7 @@ footer {
                 a {
                     text-decoration: none;
                 }
-                
+
                 a:not(:last-child) {
                     margin-bottom: 16px;
                 }
