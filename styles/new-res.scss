@@ -1,0 +1,35 @@
+@import 'var';
+
+//mobile 480
+@media screen and (max-width: 480px) {
+    .hoolix-top-nav-container {
+        display: none;
+    }
+
+    .hoolix-mb-top-nav-container {
+        display: block;
+        position: sticky;
+        max-width: 100% !important;
+        margin: auto;
+        
+    }
+
+    .hoolix-hero-container {
+        .hero {
+            max-width: 350px !important;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            position: relative;
+
+            .hero-img {
+                margin-top: 100px;
+
+                img {
+                    width: 350px !important;
+                    height: auto;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
