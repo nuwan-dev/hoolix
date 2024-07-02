@@ -779,6 +779,18 @@ html {
                     }
                 }
 
+                .work-1 {
+                    .work-img {
+                        background-image: url('../assets/imgs/hotelkingland.jpg') !important;
+                    }
+                }
+
+                .work-2 {
+                    .work-img {
+                        background-image: url('../assets/imgs/athlete360.jpg') !important;
+                    }
+                }
+
                 .work:hover {
                     box-shadow: 0 16px 80px 0 rgba(254, 147, 94, 0.2);
 
@@ -944,33 +956,42 @@ footer {
 
         .newsletter {
             margin: auto;
-            width: 1170px;
-            height: 416px;
+            width: 58.625rem;
+            height: 15rem;
             display: flex;
             text-align: center;
             justify-content: center;
             flex-direction: column;
-            background-color: $orange;
-            background-image: url('/assets/icons/Element.svg');
+            // background-color: $orange;
+            background-image: url('/assets/icons/Element-1.svg');
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
             background-position: bottom left;
             border-radius: 16px;
             z-index: 2;
 
             h3 {
                 font-family: $ubuntu;
-                font-size: 48px;
+                font-size: 28px;
                 font-weight: bold;
                 color: $white;
             }
 
             a {
                 font-family: $ubuntu;
-                font-size: 48px;
-                font-weight: bold;
+                font-size: 28px;
+                font-weight: 500;
                 color: $white;
                 text-decoration: none;
+                color: $orange;
+                background-color: $white;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                padding: 20px;
+                border-radius: 16px;
+                cursor: pointer;
             }
         }
     }

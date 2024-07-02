@@ -661,6 +661,12 @@ html {
   background-color: #FD4714;
   color: #fff;
 }
+.hoolix-our-work-container .our-work .our-work-slider .slick-track .work-1 .work-img {
+  background-image: url("../assets/imgs/hotelkingland.jpg") !important;
+}
+.hoolix-our-work-container .our-work .our-work-slider .slick-track .work-2 .work-img {
+  background-image: url("../assets/imgs/athlete360.jpg") !important;
+}
 .hoolix-our-work-container .our-work .our-work-slider .slick-track .work:hover {
   box-shadow: 0 16px 80px 0 rgba(254, 147, 94, 0.2);
 }
@@ -787,32 +793,40 @@ footer .hoolix-newsletter-container {
 }
 footer .hoolix-newsletter-container .newsletter {
   margin: auto;
-  width: 1170px;
-  height: 416px;
+  width: 58.625rem;
+  height: 15rem;
   display: flex;
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #FD4714;
-  background-image: url("/assets/icons/Element.svg");
+  background-image: url("/assets/icons/Element-1.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: bottom left;
   border-radius: 16px;
   z-index: 2;
 }
 footer .hoolix-newsletter-container .newsletter h3 {
   font-family: "Ubuntu", sans-serif;
-  font-size: 48px;
+  font-size: 28px;
   font-weight: bold;
   color: #fff;
 }
 footer .hoolix-newsletter-container .newsletter a {
   font-family: "Ubuntu", sans-serif;
-  font-size: 48px;
-  font-weight: bold;
+  font-size: 28px;
+  font-weight: 500;
   color: #fff;
   text-decoration: none;
+  color: #FD4714;
+  background-color: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 16px;
+  cursor: pointer;
 }
 footer .hoolix-footer-container {
   width: 100%;
