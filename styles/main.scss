@@ -31,7 +31,7 @@ html {
         .top-nav-logo {
             color: $orange;
             text-decoration: none;
-            font-family: $calibriB;
+            font-family: $ubuntu;
             font-size: 55px;
             font-weight: 700;
         }
@@ -386,7 +386,7 @@ html {
             display: flex;
             column-gap: 30px;
             justify-content: space-between;
-            align-items: center;
+            align-items: stretch;
             margin-top: 64px;
 
             div {
@@ -395,6 +395,8 @@ html {
                 padding: 40px;
                 text-align: left;
                 box-shadow: 14px 24px 72px 0 rgba(102, 102, 102, 0.10);
+                flex: 1;
+                box-sizing: border-box;
 
                 img {
                     position: relative;
