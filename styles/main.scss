@@ -139,9 +139,26 @@ html {
         .top-nav-logo {
             color: $orange;
             text-decoration: none;
-            font-family: $calibriB;
+            font-family: $ubuntu;
             font-size: 35px;
             font-weight: 700;
+        }
+
+        .top-nav-btn {
+            color: $white;
+            background-color: $orange;
+            padding: 7px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 600;
+            box-shadow: 0 8px 16px 0 rgba(253, 71, 20, 0.24);
+            cursor: pointer;
+            transition: ease-in-out 0.3s;
+        }
+
+        .top-nav-btn:hover {
+            transform: translateY(-5px);
         }
 
         .mb-top-nav-menu {
@@ -237,40 +254,6 @@ html {
         }
     }
 }
-
-// Mobile top header container
-/*.hoolix-mb-top-header-container {
-    // width: 100%;
-    padding: 5%;
-
-    .mb-top-header {
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        a:nth-child(1) {
-            color: $orange;
-            text-decoration: none;
-            font-family: $calibriB;
-            font-size: 45px;
-            font-weight: 700;
-        }
-
-        a:nth-child(2) {
-            color: #fff;
-            background-color: #FD4714;
-            padding: 13px 50px;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: ease-in-out 0.3s;
-            text-decoration: none;
-        }
-    }
-} */
 
 // Hero container
 .hoolix-hero-container {
@@ -452,7 +435,7 @@ html {
 
             .slick-prev {
                 position: absolute;
-                top: 575px;
+                top: 505px;
                 left: 46%;
                 margin-right: 12px;
                 z-index: 9;
@@ -472,7 +455,7 @@ html {
 
             .slick-next {
                 position: absolute;
-                top: 575px;
+                top: 505px;
                 right: 46%;
                 z-index: 9;
             }
@@ -540,6 +523,7 @@ html {
                                 justify-content: space-between;
                                 align-items: center;
                                 column-gap: 8px;
+                                display: none;
 
                                 img {
                                     width: 16px;
@@ -565,6 +549,7 @@ html {
                             .s-technologies {
                                 display: inherit;
                                 column-gap: 8px;
+                                display: none;
 
                                 img {
                                     width: 16px;
@@ -581,6 +566,7 @@ html {
                                 background-color: $light-orange;
                                 text-decoration: none;
                                 transition: ease-in-out 0.3s;
+                                width: 100%;
                             }
 
                             a:hover {
@@ -1001,7 +987,7 @@ footer {
         background-color: $grey-white;
         position: absolute;
         top: 50%;
-        padding-top: 325px;
+        padding-top: 225px;
         padding-bottom: 50px;
 
         .footer {
@@ -1009,9 +995,16 @@ footer {
             width: 1170px;
             margin: auto;
 
+            div {
+                a {
+                    color: $dark;
+                }
+            }
+
             .footer-col-1 {
-                width: 40%;
-                width: 255px;
+                // width: 50%;
+
+                // width: 255px;
                 margin-right: 317px;
 
                 a {
@@ -1019,9 +1012,22 @@ footer {
                     // display: block;
                     text-decoration: none;
                     color: $orange;
-                    font-size: 24px;
+                    font-size: 50px;
                     font-family: $ubuntu;
                     font-weight: bold;
+                }
+
+                .footer-social {
+                    display: flex;
+                    column-gap: 15px;
+
+                    a {
+                        color: $dark;
+
+                        img {
+                            width: 25px;
+                        }
+                    }
                 }
 
                 p {
@@ -1049,6 +1055,24 @@ footer {
                     margin-bottom: 16px;
                 }
             }
+        }
+
+        .hoolix-footer-bottom {
+            width: 100%;
+
+            .footer-bottom {
+                width: 1170px;
+                border-top: 1px solid $dark;
+                padding: 20px 0;
+                margin: auto;
+                margin-top: 75px;
+
+                p {
+                    text-align: center;
+                    font-size: 16px;
+                }
+            }
+
         }
     }
 }

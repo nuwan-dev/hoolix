@@ -56,6 +56,7 @@ $(".our-services-slider").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        arrows: false,
       },
     },
   ],
@@ -90,6 +91,7 @@ $(".our-work-slider").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        arrows: false,
       },
     },
   ],
@@ -102,6 +104,32 @@ $(".t-slider").slick({
   autoplaySpeed: 1250,
   slidesToScroll: 1,
   dots: false,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+      },
+    },
+  ],
 });
 
 let menu = document.getElementById("mbTopNavMenu");
@@ -109,5 +137,15 @@ menu.addEventListener("click", () => {
   menu.classList.toggle("open-menu");
 });
 
+function updateAos() {
+  const screenWidth = screen.width;
+  const heroImg = document.querySelector(".hero-img");
+  if (screenWidth < 468) {
+    heroImg.setAttribute("data-aos", "fade-up");
+  } else {
+    heroImg.setAttribute("data-aos", "fade-left");
+  }
+}
 
-
+updateAos();
+window.addEventListener("resize", updateAos);

@@ -4,9 +4,12 @@
   font-family: "Calibri Bold";
   src: url("../calibri-bold.ttf");
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 468px) {
   .hoolix-top-nav-container {
     display: none;
+  }
+  .hoolix-mb-top-nav-container .mb-top-nav .mb-top-nav-menu {
+    right: 12px;
   }
   .hoolix-mb-top-nav-container {
     display: block;
@@ -14,19 +17,107 @@
     max-width: 100% !important;
     margin: auto;
   }
+  .hoolix-mb-nav-container {
+    display: block;
+  }
   .hoolix-hero-container .hero {
-    max-width: 350px !important;
+    max-width: 350px;
+    width: calc(100vw - 30px);
     padding-top: 50px;
     padding-bottom: 50px;
     position: relative;
   }
+  .hoolix-hero-container .hero .hero-txt h1 {
+    font-size: 50px;
+  }
   .hoolix-hero-container .hero .hero-img {
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
   }
   .hoolix-hero-container .hero .hero-img img {
-    width: 350px !important;
+    width: 320px !important;
     height: auto;
     margin: auto;
+  }
+  .hoolix-why-us-container .why-us {
+    max-width: 350px;
+    width: calc(100vw - 30px);
+    padding: 50px 0;
+  }
+  .hoolix-why-us-container .why-us .why-us-reasons {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .hoolix-our-servies-container .our-servies {
+    max-width: 350px;
+    width: calc(100vw - 30px);
+    padding: 50px 0;
+  }
+  .hoolix-our-servies-container .our-servies .our-services-slider .slick-track {
+    width: 100%;
+    padding: 0;
+  }
+  .hoolix-our-work-container .our-work {
+    max-width: 350px;
+    width: calc(100vw - 30px);
+    padding: 50px 0;
+    padding-top: 0;
+  }
+  .hoolix-our-work-container .our-work .our-work-slider .slick-track {
+    width: 100%;
+    padding: 0;
+  }
+  .hoolix-testimonial-container .t-wrapper {
+    width: calc(100vw - 30px);
+    max-width: 350px;
+    padding: 50px 0;
+  }
+  .hoolix-testimonial-container .t-wrapper .testimonials .t-slider .slick-track {
+    padding-bottom: 0px;
+  }
+  .hoolix-testimonial-container .t-wrapper .testimonials .t-slider .slick-track .testimoial {
+    padding: 28px 34px;
+  }
+  footer .hoolix-newsletter-container {
+    margin-top: 50px;
+  }
+  footer .hoolix-newsletter-container .newsletter {
+    max-width: 350px;
+    width: calc(100vw - 30px);
+  }
+  footer .hoolix-newsletter-container .newsletter a {
+    width: 70%;
+    font-size: 24px;
+  }
+  footer .hoolix-footer-container {
+    padding-top: 200px;
+  }
+  footer .hoolix-footer-container .footer {
+    max-width: 350px;
+    width: calc(100vw - 30px);
+    flex-wrap: wrap;
+  }
+  footer .hoolix-footer-container .footer .footer-col-1 {
+    margin-right: 0;
+    width: 100%;
+    max-width: 350px !important;
+  }
+  footer .hoolix-footer-container .footer .footer-col-2,
+  footer .hoolix-footer-container .footer .footer-col-3,
+  footer .hoolix-footer-container .footer .footer-col-4 {
+    width: 50%;
+  }
+  footer .hoolix-footer-container .footer .footer-col-2 a,
+  footer .hoolix-footer-container .footer .footer-col-3 a,
+  footer .hoolix-footer-container .footer .footer-col-4 a {
+    margin-bottom: 10px;
+  }
+  footer .hoolix-footer-container .hoolix-footer-bottom {
+    width: 100%;
+  }
+  footer .hoolix-footer-container .hoolix-footer-bottom .footer-bottom {
+    max-width: 350px !important;
   }
 }
 
