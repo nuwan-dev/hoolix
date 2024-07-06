@@ -17,6 +17,9 @@
     max-width: 100% !important;
     margin: auto;
   }
+  .hoolix-mb-nav-container {
+    display: block;
+  }
   .hoolix-hero-container .hero {
     max-width: 350px;
     width: calc(100vw - 30px);
@@ -90,12 +93,6 @@
   footer .hoolix-footer-container {
     padding-top: 200px;
   }
-  footer .hoolix-footer-container .hoolix-footer-bottom {
-    width: 100%;
-  }
-  footer .hoolix-footer-container .hoolix-footer-bottom .footer-bottom {
-    max-width: 350px !important;
-  }
   footer .hoolix-footer-container .footer {
     max-width: 350px;
     width: calc(100vw - 30px);
@@ -103,18 +100,24 @@
   }
   footer .hoolix-footer-container .footer .footer-col-1 {
     margin-right: 0;
-    width: 350px;
+    width: 100%;
+    max-width: 350px !important;
   }
   footer .hoolix-footer-container .footer .footer-col-2,
   footer .hoolix-footer-container .footer .footer-col-3,
   footer .hoolix-footer-container .footer .footer-col-4 {
-    width: 100%;
-    flex: 1;
+    width: 50%;
   }
   footer .hoolix-footer-container .footer .footer-col-2 a,
   footer .hoolix-footer-container .footer .footer-col-3 a,
   footer .hoolix-footer-container .footer .footer-col-4 a {
     margin-bottom: 10px;
+  }
+  footer .hoolix-footer-container .hoolix-footer-bottom {
+    width: 100%;
+  }
+  footer .hoolix-footer-container .hoolix-footer-bottom .footer-bottom {
+    max-width: 350px !important;
   }
 }
 

@@ -916,4 +916,56 @@ footer .hoolix-footer-container .hoolix-footer-bottom .footer-bottom p {
   display: none;
 }
 
+.hoolix-careers-container {
+  width: 100%;
+}
+.hoolix-careers-container .careers {
+  max-width: 1170px;
+  margin: auto;
+  padding: 120px 0;
+  text-align: center;
+  padding-top: 200px;
+}
+.hoolix-careers-container .careers h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+.hoolix-careers-container .careers h1 span {
+  color: #FD4714;
+  font-family: inherit;
+}
+.hoolix-careers-container .careers h3 {
+  font-size: 16px;
+  color: #666;
+  font-weight: normal;
+  margin-bottom: 100px;
+}
+.hoolix-careers-container .careers .career {
+  padding: 31px 39px;
+  margin-bottom: 15px;
+  border: 1px solid #f2f4fe;
+  box-shadow: -8px 8px 16px 0px rgba(15, 7, 44, 0.04);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+.hoolix-careers-container .careers .career p {
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.hoolix-careers-container .careers .career a {
+  color: #FD4714;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #FFE7DB;
+  text-decoration: none;
+  transition: ease-in-out 0.3s;
+}
+
 /*# sourceMappingURL=main.css.map */

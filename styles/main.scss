@@ -1108,3 +1108,68 @@ footer {
 
     }
 }
+
+// Careers page styles
+
+//Careers container
+.hoolix-careers-container {
+    width: 100%;
+
+    .careers {
+        max-width: 1170px;
+        margin: auto;
+        padding: 120px 0;
+        text-align: center;
+        padding-top: 200px;
+
+        h1 {
+            font-family: $ubuntu;
+            font-size: 48px;
+            margin-bottom: 25px;
+
+            span {
+                color: $orange;
+                font-family: inherit;
+            }
+        }
+
+        h3 {
+            // margin-top: 24px;
+            font-size: 16px;
+            color: #666;
+            font-weight: normal;
+            margin-bottom: 100px;
+        }
+
+        .career {
+            padding: 31px 39px;
+            margin-bottom: 15px;
+            border: 1px solid #f2f4fe;
+            box-shadow: -8px 8px 16px 0px rgb(15 7 44 / 4%);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: $poppins;
+            text-align: left;
+
+            p {
+                font-size: 24px;
+                text-transform: capitalize;
+            }
+
+            a {
+                color: #FD4714;
+                font-size: 16px;
+                font-weight: 700;
+                padding: 10px 20px;
+                border-radius: 8px;
+                background-color: #FFE7DB;
+                text-decoration: none;
+                transition: ease-in-out 0.3s;
+                // width: 100%;
+                // display: inline-block;
+            }
+        }
+    }
+}

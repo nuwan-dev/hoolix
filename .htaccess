@@ -1,0 +1,11 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Condition to check if the request is not for a directory
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Condition to check if the request is not for a file
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Rewrite rule to remove .html extension
+RewriteRule ^([^\.]+)$ $1.html [NC,L]

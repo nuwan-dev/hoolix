@@ -1,70 +1,175 @@
 @import 'var';
 
-// mobile
-@media screen and (max-width: 425px) {
+//mobile 480
+@media screen and (max-width: 468px) {
     .hoolix-top-nav-container {
-        display: none !important;
+        display: none;
+    }
+
+    .hoolix-mb-top-nav-container {
+        .mb-top-nav {
+            .mb-top-nav-menu {
+                right: 12px;
+            }
+        }
     }
 
     .hoolix-mb-top-nav-container {
         display: block;
+        position: sticky;
+        max-width: 100% !important;
+        margin: auto;
     }
 
     .hoolix-mb-nav-container {
-        display: block !important;
+        display: block;
     }
 
     .hoolix-hero-container {
-        width: auto;
-        padding: 5%;
-
         .hero {
-            flex-direction: column;
-            padding-top: 0;
+            max-width: 350px;
+            width: calc(100vw - 30px);
+            padding-top: 50px;
+            padding-bottom: 50px;
+            position: relative;
+
+            .hero-txt {
+                h1 {
+                    font-size: 50px;
+                }
+            }
 
             .hero-img {
+                margin-top: 100px;
+                display: flex;
+                justify-content: center;
+
                 img {
-                    width: 100%;
-                    position: relative;
-                    top: 75px;
+                    width: 320px !important;
+                    height: auto;
+                    margin: auto;
                 }
             }
         }
     }
 
     .hoolix-why-us-container {
-        width: auto;
-        padding: 5%;
 
         .why-us {
+            max-width: 350px;
+            width: calc(100vw - 30px);
+            padding: 50px 0;
+
             .why-us-reasons {
-                flex-direction: column;
-                row-gap: 25px;
+                flex-wrap: wrap;
+                row-gap: 20px;
             }
         }
     }
 
     .hoolix-our-servies-container {
-        width: auto;
-        padding: 5%;
-
         .our-servies {
+            max-width: 350px;
+            width: calc(100vw - 30px);
+            padding: 50px 0;
+
             .our-services-slider {
                 .slick-track {
-                    .service {
-                        margin: auto !important;
-                        padding-right: 10px;
-                        padding-left: 10px;
-                    }
+                    width: 100%;
+                    padding: 0;
                 }
             }
         }
     }
 
-    // ------------------
+    .hoolix-our-work-container {
+        .our-work {
+            max-width: 350px;
+            width: calc(100vw - 30px);
+            padding: 50px 0;
+            padding-top: 0;
 
-    .hoolix-chat-container {
-        bottom: 135px;
+            .our-work-slider {
+                .slick-track {
+                    width: 100%;
+                    padding: 0;
+                }
+            }
+        }
     }
 
+    .hoolix-testimonial-container {
+        .t-wrapper {
+            width: calc(100vw - 30px);
+            max-width: 350px;
+            padding: 50px 0;
+
+            .testimonials {
+                .t-slider {
+                    .slick-track {
+                        padding-bottom: 0px;
+
+                        .testimoial {
+                            padding: 28px 34px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    footer {
+
+        .hoolix-newsletter-container {
+            margin-top: 50px;
+
+            .newsletter {
+                max-width: 350px;
+                width: calc(100vw - 30px);
+
+                a {
+                    width: calc(100% - 30%);
+                    font-size: 24px;
+                }
+            }
+        }
+
+        .hoolix-footer-container {
+            padding-top: 200px;
+
+            .footer {
+                max-width: 350px;
+                width: calc(100vw - 30px);
+                flex-wrap: wrap;
+
+                .footer-col-1 {
+                    margin-right: 0;
+                    width: 100%;
+                    max-width: 350px !important;
+                }
+
+                .footer-col-2,
+                .footer-col-3,
+                .footer-col-4 {
+                    width: 50%;
+                    // flex: 1;
+
+                    a {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            .hoolix-footer-bottom {
+                width: 100%;
+
+                .footer-bottom {
+                    max-width: 350px !important;
+                }
+            }
+        }
+
+    }
 }
+
