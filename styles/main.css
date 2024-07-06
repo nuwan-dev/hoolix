@@ -46,7 +46,7 @@ html {
 }
 .hoolix-top-nav-container .top-nav .top-nav-menu ul li a {
   text-decoration: none;
-  color: #222222;
+  color: #222B48;
   font-size: 16px;
   font-weight: 500;
   position: relative;
@@ -198,7 +198,7 @@ html {
 }
 .hoolix-mb-nav-container .mb-nav a {
   text-decoration: none;
-  color: #222222;
+  color: #222B48;
   font-size: 16px;
   font-weight: 500;
   position: relative;
@@ -239,7 +239,7 @@ html {
 }
 .hoolix-hero-container .hero .hero-txt p {
   font-size: 16px;
-  color: #222222;
+  color: #222B48;
   font-weight: 500;
   text-transform: capitalize;
 }
@@ -252,7 +252,7 @@ html {
   line-height: 1;
   text-transform: capitalize;
   font-weight: bold;
-  color: #222222;
+  color: #222B48;
   margin-block: 10px 15px;
 }
 .hoolix-hero-container .hero .hero-txt h1 span {
@@ -262,6 +262,7 @@ html {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  color: #222B48;
 }
 .hoolix-hero-container .hero .hero-txt button {
   color: #FD4714;
@@ -298,6 +299,7 @@ html {
 .hoolix-why-us-container .why-us h2 {
   font-family: "Ubuntu", sans-serif;
   font-size: 48px;
+  color: #222B48;
 }
 .hoolix-why-us-container .why-us h2 span {
   font-family: "Ubuntu", sans-serif;
@@ -333,6 +335,7 @@ html {
   margin-bottom: 16px;
   font-size: 24px;
   font-weight: 500;
+  color: #222B48;
 }
 .hoolix-why-us-container .why-us .why-us-reasons div p {
   font-size: 16px;
@@ -352,6 +355,7 @@ html {
 .hoolix-our-servies-container .our-servies h2 {
   font-family: "Ubuntu", sans-serif;
   font-size: 48px;
+  color: #222B48;
 }
 .hoolix-our-servies-container .our-servies h2 span {
   font-family: "Ubuntu", sans-serif;
@@ -440,7 +444,7 @@ html {
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service .service-txt .s-txt-1 h5 {
   font-size: 24px;
   font-weight: 600;
-  color: #222222;
+  color: #222B48;
   text-align: left;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service .service-txt .s-txt-1 .s-txt-rating {
@@ -511,6 +515,7 @@ html {
 .hoolix-our-work-container .our-work h2 {
   font-family: "Ubuntu", sans-serif;
   font-size: 48px;
+  color: #222B48;
 }
 .hoolix-our-work-container .our-work h2 span {
   font-family: "Ubuntu", sans-serif;
@@ -599,7 +604,7 @@ html {
 .hoolix-our-work-container .our-work .our-work-slider .slick-track .work .work-txt .w-txt-1 h5 {
   font-size: 24px;
   font-weight: 600;
-  color: #222222;
+  color: #222B48;
   text-align: left;
 }
 .hoolix-our-work-container .our-work .our-work-slider .slick-track .work .work-txt .w-txt-1 .w-txt-rating {
@@ -681,6 +686,7 @@ html {
 .hoolix-testimonial-container .t-wrapper .testimonials .t-txt h2 {
   font-family: "Ubuntu", sans-serif;
   font-size: 48px;
+  color: #222B48;
 }
 .hoolix-testimonial-container .t-wrapper .testimonials .t-txt h2 span {
   font-family: "Ubuntu", sans-serif;
@@ -755,7 +761,7 @@ html {
 .hoolix-testimonial-container .t-wrapper .testimonials .t-slider .testimoial .testimonial-prsn {
   font-size: 18px;
   font-weight: 600;
-  color: #222222;
+  color: #222B48;
   margin-top: 34px;
   text-align: center;
 }
@@ -828,7 +834,7 @@ footer .hoolix-footer-container .footer {
   margin: auto;
 }
 footer .hoolix-footer-container .footer div a {
-  color: #222222;
+  color: #666;
 }
 footer .hoolix-footer-container .footer .footer-col-1 {
   margin-right: 317px;
@@ -846,14 +852,18 @@ footer .hoolix-footer-container .footer .footer-col-1 .footer-social {
   column-gap: 15px;
 }
 footer .hoolix-footer-container .footer .footer-col-1 .footer-social a {
-  color: #222222;
+  color: #222B48;
 }
 footer .hoolix-footer-container .footer .footer-col-1 .footer-social a img {
   width: 25px;
 }
+footer .hoolix-footer-container .footer .footer-col-1 .footer-social a:hover {
+  color: #FD4714;
+}
 footer .hoolix-footer-container .footer .footer-col-1 p {
   margin-bottom: 16px;
   margin-top: 24px;
+  color: #666;
 }
 footer .hoolix-footer-container .footer .footer-col-2,
 footer .hoolix-footer-container .footer .footer-col-3,
@@ -866,11 +876,17 @@ footer .hoolix-footer-container .footer .footer-col-2 h4,
 footer .hoolix-footer-container .footer .footer-col-3 h4,
 footer .hoolix-footer-container .footer .footer-col-4 h4 {
   margin-bottom: 32px;
+  color: #222B48;
 }
 footer .hoolix-footer-container .footer .footer-col-2 a,
 footer .hoolix-footer-container .footer .footer-col-3 a,
 footer .hoolix-footer-container .footer .footer-col-4 a {
   text-decoration: none;
+}
+footer .hoolix-footer-container .footer .footer-col-2 a:hover,
+footer .hoolix-footer-container .footer .footer-col-3 a:hover,
+footer .hoolix-footer-container .footer .footer-col-4 a:hover {
+  color: #FD4714;
 }
 footer .hoolix-footer-container .footer .footer-col-2 a:not(:last-child),
 footer .hoolix-footer-container .footer .footer-col-3 a:not(:last-child),
@@ -882,7 +898,7 @@ footer .hoolix-footer-container .hoolix-footer-bottom {
 }
 footer .hoolix-footer-container .hoolix-footer-bottom .footer-bottom {
   width: 1170px;
-  border-top: 1px solid #222222;
+  border-top: 1px solid #222B48;
   padding: 20px 0;
   margin: auto;
   margin-top: 75px;
@@ -890,6 +906,7 @@ footer .hoolix-footer-container .hoolix-footer-bottom .footer-bottom {
 footer .hoolix-footer-container .hoolix-footer-bottom .footer-bottom p {
   text-align: center;
   font-size: 16px;
+  color: #666;
 }
 
 .hoolix-chat-container {
@@ -966,6 +983,78 @@ footer .hoolix-footer-container .hoolix-footer-bottom .footer-bottom p {
   background-color: #FFE7DB;
   text-decoration: none;
   transition: ease-in-out 0.3s;
+}
+
+.hoolix-apply-now-container {
+  width: 100%;
+}
+.hoolix-apply-now-container .appy-now {
+  max-width: 1170px;
+  margin: auto;
+  padding: 120px 0;
+  text-align: left;
+  padding-top: 200px;
+}
+.hoolix-apply-now-container .appy-now form {
+  padding: 31px 39px;
+  margin-bottom: 15px;
+  border: 1px solid #f2f4fe;
+  box-shadow: -8px 8px 16px 0px rgba(15, 7, 44, 0.04);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+.hoolix-apply-now-container .appy-now form .input:not(:first-child) {
+  margin-top: 25px;
+}
+.hoolix-apply-now-container .appy-now form .input input,
+.hoolix-apply-now-container .appy-now form .input textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  padding: 20px 0;
+}
+.hoolix-apply-now-container .appy-now form .input input::placeholder,
+.hoolix-apply-now-container .appy-now form .input textarea::placeholder {
+  color: #666;
+  font-size: 16px;
+}
+.hoolix-apply-now-container .appy-now form .input input[type=submit] {
+  color: #FD4714;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #FFE7DB;
+  text-decoration: none;
+  transition: ease-in-out 0.3s;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  display: block;
+  width: 200px;
+}
+.hoolix-apply-now-container .appy-now form .input input[type=file] {
+  border-bottom: none;
+  overflow: hidden;
+}
+.hoolix-apply-now-container .appy-now form .input select {
+  width: 100%;
+  padding: 20px;
+  border: 1px dashed;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+.hoolix-apply-now-container .appy-now form .input .cv-wrapper {
+  border: dashed #222B48 1px;
+  margin-top: 20px;
+  border-radius: 8px;
+  padding-left: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

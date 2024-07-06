@@ -1,3 +1,6 @@
+# Disable directory indexing
+Options -Indexes
+
 # Enable URL rewriting
 RewriteEngine On
 

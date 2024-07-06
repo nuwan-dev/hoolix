@@ -307,6 +307,7 @@ html {
                 font-family: $poppins;
                 font-weight: 400;
                 font-size: 16px;
+                color: $dark;
             }
 
             button {
@@ -352,6 +353,7 @@ html {
         h2 {
             font-family: $ubuntu;
             font-size: 48px;
+            color: $dark;
 
             span {
                 font-family: $ubuntu;
@@ -391,6 +393,7 @@ html {
                     margin-bottom: 16px;
                     font-size: 24px;
                     font-weight: 500;
+                    color: $dark;
                 }
 
                 p {
@@ -416,6 +419,7 @@ html {
         h2 {
             font-family: $ubuntu;
             font-size: 48px;
+            color: $dark;
 
             span {
                 font-family: $ubuntu;
@@ -605,6 +609,7 @@ html {
         h2 {
             font-family: $ubuntu;
             font-size: 48px;
+            color: $dark;
 
             span {
                 font-family: $ubuntu;
@@ -815,6 +820,7 @@ html {
                 h2 {
                     font-family: $ubuntu;
                     font-size: 48px;
+                    color: $dark;
 
                     span {
                         font-family: $ubuntu;
@@ -997,7 +1003,7 @@ footer {
 
             div {
                 a {
-                    color: $dark;
+                    color: $light-grey;
                 }
             }
 
@@ -1028,11 +1034,16 @@ footer {
                             width: 25px;
                         }
                     }
+
+                    a:hover {
+                        color: $orange;
+                    }
                 }
 
                 p {
                     margin-bottom: 16px;
                     margin-top: 24px;
+                    color: $light-grey;
                 }
             }
 
@@ -1045,10 +1056,15 @@ footer {
 
                 h4 {
                     margin-bottom: 32px;
+                    color: $dark;
                 }
 
                 a {
                     text-decoration: none;
+                }
+
+                a:hover {
+                    color: $orange;
                 }
 
                 a:not(:last-child) {
@@ -1070,6 +1086,7 @@ footer {
                 p {
                     text-align: center;
                     font-size: 16px;
+                    color: $light-grey;
                 }
             }
 
@@ -1169,6 +1186,98 @@ footer {
                 transition: ease-in-out 0.3s;
                 // width: 100%;
                 // display: inline-block;
+            }
+        }
+    }
+}
+
+// Apply now page styles
+
+// Apply now container
+.hoolix-apply-now-container {
+    width: 100%;
+
+    .appy-now {
+        max-width: 1170px;
+        margin: auto;
+        padding: 120px 0;
+        text-align: left;
+        padding-top: 200px;
+
+        form {
+            padding: 31px 39px;
+            margin-bottom: 15px;
+            border: 1px solid #f2f4fe;
+            box-shadow: -8px 8px 16px 0px rgb(15 7 44 / 4%);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+            justify-content: flex-start;
+            font-family: $poppins;
+            text-align: left;
+            // width: 500px;
+
+            .input:not(:first-child) {
+                margin-top: 25px;
+            }
+
+            .input {
+
+                input,
+                textarea {
+                    width: 100%;
+                    outline: none;
+                    border: none;
+                    border-bottom: 1px solid $light-grey;
+                    padding: 20px 0;
+                }
+
+                input::placeholder,
+                textarea::placeholder {
+                    color: $light-grey;
+                    font-size: 16px;
+
+                }
+
+                input[type=submit] {
+                    color: #FD4714;
+                    font-size: 16px;
+                    font-weight: 700;
+                    padding: 10px 20px;
+                    border-radius: 8px;
+                    background-color: #FFE7DB;
+                    text-decoration: none;
+                    transition: ease-in-out 0.3s;
+                    outline: none;
+                    border: none;
+                    cursor: pointer;
+                    text-transform: capitalize;
+                    display: block;
+                    width: 200px;
+                }
+
+                input[type=file] {
+                    border-bottom: none;
+                    overflow: hidden;
+                }
+
+                select {
+                    width: 100%;
+                    padding: 20px;
+                    border: 1px dashed;
+                    margin-top: 20px;
+                    border-radius: 6px;
+                }
+
+                .cv-wrapper {
+                    // border: 1px solid $dark;
+                    border: dashed $dark 1px;
+                    // padding: 20px 0px 20px 20px;
+                    margin-top: 20px;
+                    border-radius: 8px;
+                    padding-left: 20px;
+                }
             }
         }
     }
