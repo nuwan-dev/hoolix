@@ -25,6 +25,19 @@
         display: block;
     }
 
+    .hoolix-new-hero-container {
+        .new-hero-bg {
+            p {
+                transform: rotate(-90deg) !important;
+                font-size: 400px;
+                // bottom: 0;
+                // right: 1px;
+                bottom: 175px;
+                left: -300px;
+            }
+        }
+    }
+
     .hoolix-hero-container {
         .hero {
             max-width: 350px;
@@ -174,6 +187,4 @@
 }
 
 //tablet
-@media screen and (max-width: 768px) {
-    
-}
+@media screen and (max-width: 768px) {}

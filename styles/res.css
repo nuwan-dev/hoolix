@@ -20,6 +20,12 @@
   .hoolix-mb-nav-container {
     display: block;
   }
+  .hoolix-new-hero-container .new-hero-bg p {
+    transform: rotate(-90deg) !important;
+    font-size: 400px;
+    bottom: 175px;
+    left: -300px;
+  }
   .hoolix-hero-container .hero {
     max-width: 350px;
     width: calc(100vw - 30px);

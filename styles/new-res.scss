@@ -25,6 +25,17 @@
         display: block;
     }
 
+    .hoolix-new-hero-container {
+        .new-hero-bg {
+            p {
+                transform: rotate(-90deg);
+                font-size: 400px;
+                bottom: 0;
+                right: 1px;
+            }
+        }
+    }
+
     .hoolix-hero-container {
         .hero {
             max-width: 350px;

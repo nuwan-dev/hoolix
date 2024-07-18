@@ -217,6 +217,37 @@ html {
   text-align: center;
 }
 
+.hoolix-new-hero-container {
+  width: 100%;
+}
+.hoolix-new-hero-container .new-hero-bg {
+  max-width: 1170px;
+  margin: auto;
+  position: relative;
+  z-index: 0;
+}
+.hoolix-new-hero-container .new-hero-bg p {
+  position: absolute;
+  left: 0;
+  margin: auto;
+  font-size: 500px;
+  font-family: "Ubuntu", sans-serif;
+  color: rgba(253, 71, 20, 0.1);
+  font-weight: 500;
+  position: fixed;
+  text-align: center;
+}
+.hoolix-new-hero-container .new-hero-bg .new-hero {
+  position: relative;
+  z-index: 10;
+}
+.hoolix-new-hero-container .new-hero-bg .new-hero h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 7.5rem;
+  color: #222B48;
+  line-height: 6.4375rem;
+}
+
 .hoolix-hero-container {
   width: 100%;
   background-color: #FEFCFB;
@@ -330,6 +361,7 @@ html {
   position: relative;
   left: 0;
   margin-bottom: 48px;
+  width: 50px;
 }
 .hoolix-why-us-container .why-us .why-us-reasons div h3 {
   margin-bottom: 16px;
@@ -416,6 +448,7 @@ html {
   column-gap: 0;
   transition: ease-in-out 0.3s;
   border-radius: 8px;
+  background-color: #fff;
 }
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service .service-img {
   background-image: url("https://nuwan-dev.github.io/hoolix/assets/imgs/service-placeholder.png") !important;
@@ -576,6 +609,7 @@ html {
   column-gap: 0;
   transition: ease-in-out 0.3s;
   border-radius: 8px;
+  background-color: #fff;
 }
 .hoolix-our-work-container .our-work .our-work-slider .slick-track .work .work-img {
   background-image: url("https://nuwan-dev.github.io/hoolix/assets/imgs/service-placeholder.png") !important;
@@ -635,8 +669,8 @@ html {
   column-gap: 8px;
 }
 .hoolix-our-work-container .our-work .our-work-slider .slick-track .work .work-txt .w-txt-2 .w-technologies img {
-  width: 13px;
-  height: auto;
+  width: 25px;
+  height: 25px;
 }
 .hoolix-our-work-container .our-work .our-work-slider .slick-track .work .work-txt .w-txt-2 a {
   color: #FD4714;
