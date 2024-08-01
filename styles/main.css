@@ -528,6 +528,9 @@ html {
   background-color: #FD4714;
   color: #fff;
 }
+.hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service-1 .service-img {
+  background-image: url("/assets//imgs/fullstack development.jpg") !important;
+}
 .hoolix-our-servies-container .our-servies .our-services-slider .slick-track .service:hover {
   box-shadow: 0 16px 80px 0 rgba(254, 147, 94, 0.2);
 }
@@ -628,7 +631,6 @@ html {
   padding: 32px 16px;
   transition: ease-in-out 0.3s;
   position: relative;
-  top: -4px;
 }
 .hoolix-our-work-container .our-work .our-work-slider .slick-track .work .work-txt .w-txt-1 {
   display: flex;
