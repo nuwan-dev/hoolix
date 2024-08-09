@@ -1013,6 +1013,49 @@ html {
     }
 }
 
+// Footer note
+.footer-note {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 999;
+    height: 100vh;
+
+    .note {
+        max-width: 1170px;
+        margin: auto;
+        padding: 120px 0;
+        position: fixed;
+        bottom: 0;
+        margin: auto;
+        right: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: none;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        transition: 0.3s ease-in-out;
+        height: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        h4 {
+            text-align: center;
+            color: #000;
+
+            a {
+                color: $orange;
+                font-size: 35px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
 // Footer container
 // Newsletter container
 footer {
